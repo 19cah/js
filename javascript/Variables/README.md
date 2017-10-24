@@ -34,3 +34,20 @@ If variables can hold strings, can they hold other data types? Let's give it a s
 [See Example2.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example2.js)
 
 Variables can hold any data type, like strings, numbers, and Booleans. They can also hold data types that we have not learned yet, like arrays, functions and objects (more on that later).
+
+# Changing a Variable's Value
+Why do we care about variables?
+
+Variables are useful in two ways:
+
+They allow us to use the same value over and over, without having to write a string or other data type over and over.
+More importantly, we can assign variables different values that can be read and changed by the program without altering our code.
+For example, a weather app can show you a different high temperature every day. Instead of writing a new website everyday, they store the information in a variable and just change the value of that variable.
+
+We can change a variable's value if we want, like this:
+
+[See Example3.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example3.js)
+
+We created a variable by using the keyword var and the name weatherCondition.
+Then, we took the existing weatherCondition variable, and set its value equal to 'Tuesday: Sunny'.
+True to their name, variables are indeed variable.
