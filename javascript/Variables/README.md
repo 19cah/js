@@ -46,8 +46,19 @@ For example, a weather app can show you a different high temperature every day. 
 
 We can change a variable's value if we want, like this:
 
-[See Example3.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example3.js)
+
 
 We created a variable by using the keyword var and the name weatherCondition.
 Then, we took the existing weatherCondition variable, and set its value equal to 'Tuesday: Sunny'.
 True to their name, variables are indeed variable.
+
+# String Interpolation
+In the previous lessons, we've put strings into variables. Now, let's put a variable's value into a string!
+
+Putting a variable in a string uses concepts we've already learned. The JavaScript term for this idea is interpolation.
+
+Interpolwhat?! —Possibly the most fun JavaScript term to say.
+
+We can use the + operator from earlier to interpolate (insert) a variable into a string, like this:
+
+[See Example4.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example4.js)
