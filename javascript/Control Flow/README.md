@@ -30,3 +30,18 @@ needCoffee is the condition we are checking inside the if's parentheses. Since i
 Note: Code between curly braces are called blocks. if/else statements have two code blocks.
 If we adjusted needCoffee to be false, only the else's console.log will run.
 if/else statements are how we can process yes/no questions programmatically.
+
+# Comparison Operators
+if/else statements are made even more powerful with comparison operators.
+
+There are two comparisons you might be familiar with:
+
+Less than: <
+Greater than: >
+You may also recognize these:
+
+Less than or equal to: <=
+Greater than or equal to: >=
+Comparisons need two things to compare and they will always return a boolean (true or false).
+
+How can we use comparisons and an if/else statement to see if it's time to eat?
