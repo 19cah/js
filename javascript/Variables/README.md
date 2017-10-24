@@ -19,7 +19,7 @@ Luckily, JavaScript offers variables. Variables allow us to assign data to a wor
 # Create a Variable
 Let's dive in and see a variable in the wild. Here is how you declare a variable:
 
-[See Example1.js](/learn/master/javascript/Variables/example1.js)
+[See Example1.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example1.js)
 Let's dissect that statement and look at its parts:
 
 var, short for variable, is the JavaScript keyword that will create a new variable for us.
