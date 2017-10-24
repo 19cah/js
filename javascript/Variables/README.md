@@ -27,3 +27,10 @@ myName is chosen by a developer (that's you!). Notice that the word has no space
 = means to assign whatever's next to the variable.
 'Arya' is the value that the equals = assigns into the variable myName.
 After the variable is declared, we can print the variable with: console.log(myName). This will print 'Arya' to the console.
+
+# Create a Variable II
+If variables can hold strings, can they hold other data types? Let's give it a shot:
+
+[See Example2.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example2.js)
+
+Variables can hold any data type, like strings, numbers, and Booleans. They can also hold data types that we have not learned yet, like arrays, functions and objects (more on that later).
