@@ -45,3 +45,12 @@ Greater than or equal to: >=
 Comparisons need two things to compare and they will always return a boolean (true or false).
 
 How can we use comparisons and an if/else statement to see if it's time to eat?
+
+# Comparisons Operators II
+There are two more extremely useful comparisons we can make. Often times, we might want to check if two things are equal, or if they are not.
+
+To check if two things equal each other, we can use `===` (three equals in a row).
+To check if two things do not equal each other, we can write `!==` (exclamation with two equals in a row).
+Slow down here, this can be easily confused with creating variables. Variables use one equals sign = to assign a value to a variable. When you're comparing two variables, make sure to use three `===`.
+
+How can we utilize ``===` or `!==` and an if/else statement to write a program to see whether a werewolf will turn into its wolf form this evening?
