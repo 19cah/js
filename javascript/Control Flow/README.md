@@ -22,7 +22,7 @@ Let's start with human-speak. Many decisions we make everyday boil down to this 
 
 This sentence looks fairly similar when we write it with JavaScript. See for yourself:
 
-[See example1.js]()
+[See example1.js](https://github.com/19cah/learn/blob/master/javascript/Control%20Flow/example1.js)
 
 If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.
 needCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { ... } part. In this case, we'd see 'Finding coffee' log to the console.
