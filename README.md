@@ -1,2 +1,1 @@
-# learn
-Learn how to code
+# Learn How to Code
