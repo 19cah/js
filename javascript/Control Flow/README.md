@@ -54,3 +54,16 @@ To check if two things do not equal each other, we can write `!==` (exclamation 
 Slow down here, this can be easily confused with creating variables. Variables use one equals sign = to assign a value to a variable. When you're comparing two variables, make sure to use three `===`.
 
 How can we utilize `===` or `!==` and an if/else statement to write a program to see whether a werewolf will turn into its wolf form this evening?
+ # else if Statements
+if/else statements are either this or that for us right now. They answer questions that are either yes or no.
+
+What can we do if we have a question that has multiple yes conditions, or multiple no conditions?
+
+We can add more conditions to our if/else statement with: else if. Check out how this fits into our current knowledge of if/else statements:
+[See example2.js](https://github.com/19cah/learn/blob/master/javascript/Control%20Flow/example2.js)
+
+1. We created a variable named stopLight that is assigned to the String 'green'.
+
+2. Then, there's an if/else statement with multiple conditions, using else if. else if allows us to find multiple states of the stopLight variable, and output different things based on its color.
+
+3. The whole thing ends with the singular else we know and love. The else is a catch-all for any other situation. For instance, if the stopLight was blinking blue, the last else would catch it and return a default message.
