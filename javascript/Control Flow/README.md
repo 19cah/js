@@ -53,4 +53,4 @@ To check if two things equal each other, we can use `===` (three equals in a row
 To check if two things do not equal each other, we can write `!==` (exclamation with two equals in a row).
 Slow down here, this can be easily confused with creating variables. Variables use one equals sign = to assign a value to a variable. When you're comparing two variables, make sure to use three `===`.
 
-How can we utilize ``===` or `!==` and an if/else statement to write a program to see whether a werewolf will turn into its wolf form this evening?
+How can we utilize `===` or `!==` and an if/else statement to write a program to see whether a werewolf will turn into its wolf form this evening?
