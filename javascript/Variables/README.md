@@ -20,11 +20,6 @@ Luckily, JavaScript offers variables. Variables allow us to assign data to a wor
 Let's dive in and see a variable in the wild. Here is how you declare a variable:
 
 [See Example1.js](/example1.js)
-var myName = 'Arya';
-console.log(myName);
-// Output: Arya
-You can almost read it aloud: "Variable myName is equal to Arya."
-
 Let's dissect that statement and look at its parts:
 
 var, short for variable, is the JavaScript keyword that will create a new variable for us.
