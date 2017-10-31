@@ -15,3 +15,5 @@ If either of those conditions are false, we log 'Stop'.
 Just like the operators we learned previously, these logical operators will return either true or false.
 
 These logical operators are helpful when writing if/else statements, since they let us make sure multiple variables are true or false.
+
+For example No. 2: See [example2.js](example2.js)
