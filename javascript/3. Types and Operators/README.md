@@ -19,4 +19,6 @@ We can add more conditions to our if/else statement with: else if. Check out how
 
 3. The whole thing ends with the singular else we know and love. The else is a catch-all for any other situation. For instance, if the stopLight was blinking blue, the last else would catch it and return a default message.
 
+See `if else` example [here](ifelse.js)
+
 Copyright (c) Code Academy, [www.codeacademy.com](https://www.codeacademy.com)
