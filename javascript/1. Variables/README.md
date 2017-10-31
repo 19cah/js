@@ -19,7 +19,7 @@ Luckily, JavaScript offers variables. Variables allow us to assign data to a wor
 # Create a Variable
 Let's dive in and see a variable in the wild. Here is how you declare a variable:
 
-[See Example1.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example1.js)
+[See Example1.js](example1.js)
 Let's dissect that statement and look at its parts:
 
 var, short for variable, is the JavaScript keyword that will create a new variable for us.
@@ -31,7 +31,7 @@ After the variable is declared, we can print the variable with: console.log(myNa
 # Create a Variable II
 If variables can hold strings, can they hold other data types? Let's give it a shot:
 
-[See Example2.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example2.js)
+[See Example2.js](example2.js)
 
 Variables can hold any data type, like strings, numbers, and Booleans. They can also hold data types that we have not learned yet, like arrays, functions and objects (more on that later).
 
@@ -61,4 +61,4 @@ Interpolwhat?! —Possibly the most fun JavaScript term to say.
 
 We can use the + operator from earlier to interpolate (insert) a variable into a string, like this:
 
-[See Example4.js](https://github.com/19cah/learn/blob/master/javascript/Variables/example4.js)
+[See Example4.js](example4.js)
