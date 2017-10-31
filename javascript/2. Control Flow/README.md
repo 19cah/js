@@ -60,7 +60,7 @@ if/else statements are either this or that for us right now. They answer questio
 What can we do if we have a question that has multiple yes conditions, or multiple no conditions?
 
 We can add more conditions to our if/else statement with: else if. Check out how this fits into our current knowledge of if/else statements:
-[See example2.js](/example2.js)
+[See example2.js](example2.js)
 
 1. We created a variable named stopLight that is assigned to the String 'green'.
 
