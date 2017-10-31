@@ -1,1 +1,2 @@
-# Learn How to Code
+# Learn JavaScript
+[Code Academy](https://codeacademy.com/19cah)
