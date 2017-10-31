@@ -7,8 +7,9 @@ To say "both must be true," we can use &&.
 To say "either can be true," we can use ||.
 To say "I want to make sure this is the opposite of what it really is," we can use !.
 To say "these should not be equal to each other," we can use !==.
-For example:
-See [example1.js](example1.js)
+
+For example: See [example1.js](example1.js)
+
 In the example above, we make sure that the stopLight is 'green' and && there are no pedestrians before we log 'Go!'.
 If either of those conditions are false, we log 'Stop'.
 Just like the operators we learned previously, these logical operators will return either true or false.
