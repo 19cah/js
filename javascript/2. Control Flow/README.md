@@ -88,3 +88,23 @@ Inside the block, { ... }, there are cases. case is like the else if part of an 
 groceryItem equals 'papaya', so the first and second case statements are skipped. The third case runs since the case is 'papaya' matches groceryItem's value. This particular program will log out: 'Papayas are $1.29'.
 Then the program stops with the break keyword. This keyword will prevent the switch statement from executing any more of its code.
 At the end of each switch statement, there is a default condition. If none of the cases are true, then this code will run.
+
+
+# Review Control Flow
+
+`if/else` statements make binary decisions and execute separate code based on a condition.
+
+We can add extra conditions with to if/else statements with else if conditions.
+switch statements make complicated if/else statements easier to read, however they achieve the same result as if/else statements.
+
+Comparison operators, like `<`, `>`, `<=`, and `>=` can compare two variables. After they compare, they always return either true or false.
+
+Logical Operators, like `&&`, `||`, `!==`, and `!`, can compare two variables to see if a certain condition exists:
+
+`&&` checks if both sides are true.
+
+`||` checks if either side is true.
+
+`!==` checks if both sides are not equal.
+
+`!` changes a variable that is true to false, and vice versa.
