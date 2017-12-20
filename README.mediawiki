@@ -1,4 +1,4 @@
-<!-- {{distinguish|Java (programming language)|Java (software platform)|Javanese script}} -->
+{{JavaScriptSidebar}}
 
 {{Infobox programming language
 | name                   = JavaScript
@@ -640,59 +640,3 @@ A common misconception is that JavaScript is similar or closely related to [[Jav
 
 The differences between the two languages are more prominent than their similarities. Java has [[static typing]], while JavaScript's typing is [[Dynamic typing|dynamic]]. Java is loaded from compiled bytecode, while JavaScript is loaded as human-readable source code. Java's objects are [[Class-based programming|class-based]], while JavaScript's are [[Prototype-based programming|prototype-based]]. Finally, Java did not support [[functional programming]] until Java 8, while JavaScript has done so from the beginning, being influenced by [[Scheme (programming language)|Scheme]].
 
-== See also ==
-{{Portal|Computer programming}}
-* [[WebAssembly]]
-
-== References ==
-{{Reflist|30em}}
-
-== Further reading ==
-{{Refbegin|30em}}
-* {{cite book | last=Bhangal | first=Sham | author2=Jankowski, Tomasz | title=Foundation Web Design: Essential HTML, JavaScript, CSS, PhotoShop, Fireworks, and Flash | year=2003 | publisher=APress L. P. | isbn=1-59059-152-6}}
-* {{cite book | last=Burns | first=Joe | author2=Growney, Andree S. | title=JavaScript Goodies | year=2001 | publisher=Pearson Education | isbn=0-7897-2612-2}}
-* {{cite book | last=Duffy | first=Scott | title=How to do Everything with JavaScript | year=2003 | publisher=Osborne | isbn=0-07-222887-3 }}
-* {{cite book |last1=Flanagan | first1= David | title= JavaScript: The Definitive Guide | edition= 5th | year= 2006 | publisher= [[O'Reilly Media|O'Reilly & Associates]] | isbn= 0-596-10199-6 | ref= harv}}
-* {{cite book |last1=Flanagan | first1= David | title= JavaScript: The Definitive Guide | edition= 6th | year= 2011 | publisher= [[O'Reilly Media|O'Reilly & Associates]] | isbn= 978-0-596-80552-4 | ref= harv}}
-* {{cite book | last=Goodman | first=Danny | author2=Eich, Brendan | title=JavaScript Bible | year=2001 | publisher=John Wiley & Sons | isbn=0-7645-3342-8}}
-* {{cite book | last=Goodman | first=Danny | author2=Markel, Scott | title=JavaScript and DHTML Cookbook | year=2003 | publisher=O'Reilly & Associates | isbn=0-596-00467-2}}
-* {{cite book | last=Harris | first=Andy | title=JavaScript Programming for the Absolute Beginner | year=2001 | publisher=Premier Press | isbn=0-7615-3410-5}}
-* {{cite book | last=Haverbeke | first=Marijn | title=Eloquent JavaScript | year=2011 | publisher=No Starch Press|isbn=978-1-59327-282-1}}
-* {{cite book | last=Heinle | first=Nick | author2=Koman, Richard | title=Designing with JavaScript | year=1997 | publisher=O'Reilly & Associates | isbn=1-56592-300-6}}
-* {{cite book | last=Husted | first=Robert | last2=Kuslich | first2=JJ | title=Server-Side JavaScript: Developing Integrated Web Applications | edition=1st | year=1999| publisher=Addison-Wesley | isbn=0-201-43329-X}}
-* {{cite book | last=McDuffie | first=Tina Spain | title=JavaScript Concepts & Techniques: Programming Interactive Web Sites | year=2003 | publisher=Franklin, Beedle & Associates | isbn=1-887902-69-4}}
-* {{cite book | last=McFarlane | first=Nigel | title=Rapid Application Development with Mozilla | year=2003 | publisher=Prentice Hall Professional Technical References | isbn=0-13-142343-6}}
-* {{cite book | last=Powell | first=Thomas A. | author2=Schneider, Fritz | title=JavaScript: The Complete Reference | year=2001 | publisher=McGraw-Hill Companies | isbn=0-07-219127-9}}
-* {{cite book | last=Shelly | first=Gary B. | author2=Cashman, Thomas J. | author3=Dorin, William J. | author4= Quasney, Jeffrey J. | title=JavaScript: Complete Concepts and Techniques | year=2000 | publisher=Course Technology | location=Cambridge | isbn=0-7895-6233-2}}
-* {{cite book | last=Vander Veer | first=Emily A. | title=JavaScript For Dummies | edition=4th | year=2004 | publisher=Wiley Pub. | isbn=0-7645-7659-3}}
-* {{cite book | last=Watt | first=Andrew H. | author2=Watt, Jonathan A. | author3=Simon, Jinjer L. | title=Teach Yourself JavaScript in 21 Days | year=2002 | publisher=Pearson Education | isbn=0-672-32297-8}}
-* {{cite book|last1= Zakas | first1= Nicholas C. | title= Professional JavaScript for Web Developers | edition= 3rd | year= 2012 | publisher= Wrox | isbn= 978-1-118-02669-4 }}
-{{Refend}}
-
-== External links ==
-{{sisterlinks|commons=Category:JavaScript|n=no|v=Topic:JavaScript|q=no|s=no|m=no|voy=no|species=no|mw=JavaScript}}
-{{Spoken Wikipedia|En-JavaScript.ogg|2013-08-20}}
-* [[Douglas Crockford]]'s [https://www.youtube.com/playlist?list=PL62E185BB8577B63D video lectures on JavaScript]
-* Douglas Crockford's [http://javascript.crockford.com/survey.html A Survey of the JavaScript Programming Language]
-* {{DMOZ|Computers/Programming/Languages/JavaScript/}}
-* [https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS/ List of languages that compile to JS]
-
-{{JavaScript}}
-{{Programming languages}}
-{{ECMAScript}}
-{{Web browsers}}
-{{NodeJs}}
-{{Authority control}}
-
-[[Category:JavaScript| ]]
-[[Category:American inventions]]
-[[Category:Articles with example JavaScript code]]
-[[Category:Cross-platform software]]
-[[Category:Dynamically typed programming languages]]
-[[Category:Functional languages]]
-[[Category:Object-based programming languages]]
-[[Category:Programming languages created in 1995]]
-[[Category:Programming languages with an ISO standard]]
-[[Category:Prototype-based programming languages]]
-[[Category:Scripting languages]]
-[[Category:Web programming]]
