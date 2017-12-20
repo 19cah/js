@@ -1,6 +1,4 @@
-[[File:/media/img/js.png]]
-
-
+[[File:/media/img/js.png|right| JavaScript Logo ]]
 
 {{JavaScriptSidebar}}
 
