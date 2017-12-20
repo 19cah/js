@@ -22,38 +22,6 @@
 | influenced_by          = [[Lua (programming language)|Lua]], [[Scheme (programming language)|Scheme]], [[Perl]], [[Self (programming language)|Self]], [[Java (programming language)|Java]], [[C (programming language)|C]], [[Python (programming language)|Python]], [[AWK]], [[HyperTalk]] <!--True for first JavaScript? Or only ECMAScript – later JavaScript versions-->
 }}
  
-{{Infobox file format
-| name = JavaScript
-| logo = 
-| screenshot = 
-| caption = 
-| extension = .js
-| mime = {{flatlist|
-* <code>application/javascript</code>
-* <code>text/javascript</code>&nbsp;(obsolete)<ref>{{cite web|url=http://www.apps.ietf.org/rfc/rfc4329.html#sec-7.1|title=RFC 4329|publisher=Apps.ietf.org|archive-url=https://web.archive.org/web/20140316122853/http://www.apps.ietf.org/rfc/rfc4329.html#sec-7|archive-date=2014-03-16|access-date=16 February 2016|dead-url=yes}}</ref>
-}}
-|_nomimecode = y
-| type code =
-| uniform type = com.netscape.javascript-source
-<ref>{{cite web
-| publisher = Apple Inc.
-| url = https://developer.apple.com/mac/library/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html
-| title = System-Declared Uniform Type Identifiers
-| work = Mac OS X Reference Library
-| accessdate = 2010-03-05}}</ref>
-| magic = 
-| owner = 
-| released = 
-| latest release version = 
-| latest release date = 
-| genre = [[Scripting language]]
-| container for = 
-| contained by = 
-| extended from = 
-| extended to = 
-| standard = 
-}}
- 
 {{JavaScriptSidebar}}
 
 '''JavaScript''' ({{IPAc-en|ˈ|dʒ|ɑː|v|ə|ˌ|s|k|r|ɪ|p|t}}<ref>{{cite web | url= http://dictionary.reference.com/browse/javascript | title= JavaScript | publisher= William Collins Sons & Co | work= Collins English Dictionary – Complete & Unabridged 2012 Digital Edition | date= 2012 | accessdate= 21 August 2015}}</ref>), often abbreviated as '''JS''', is a [[High-level programming language|high-level]], [[dynamic programming language|dynamic]], [[Weak typing|weakly typed]], [[prototype-based programming|prototype-based]], [[Multi-paradigm programming language|multi-paradigm]], and [[Interpreted language|interpreted]] [[programming language]]. Alongside [[HTML]] and [[CSS]], JavaScript is one of the three core technologies of [[World Wide Web]] [[content engineering | content production]]. It is used to make webpages interactive and provide online programs, including video games. The majority of [[website]]s employ it, and all modern [[web browser]]s support it without the need for [[Browser extension|plug-ins]] by means of a built-in [[JavaScript engine]]. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the [[ECMAScript]] specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA. 
