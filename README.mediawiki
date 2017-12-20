@@ -1,4 +1,4 @@
-{{distinguish|Java (programming language)|Java (software platform)|Javanese script}}
+<!-- {{distinguish|Java (programming language)|Java (software platform)|Javanese script}} -->
 
 {{Infobox programming language
 | name                   = JavaScript
