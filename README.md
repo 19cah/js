@@ -584,7 +584,7 @@ JavaScript was initially developed in 1996 for use in the Netscape Navigator Web
 The following table is based on information from multiple sources.
 
 | Version | Release date | Equivalent to | Netscape  Navigator | Mozilla  Firefox | Internet Explorer | Opera |	Safari | Google Chrome|
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :---: | :----: | :---: | :---: | :----: | :-----: | :---: | :---: | :---: |
 | 1.0 | March 1996 | | 2.0| | 3.0 | | | |			
 | 1.1 | August 1996|		|3.0| | | | | | |					
 | 1.2 | June 1997  |	|4.0-4.05| | |3| | |		
