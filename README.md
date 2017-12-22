@@ -212,15 +212,19 @@ var z = "Hello, World!"; // defines the variable z and assigns to it a string en
 
 Note the comments in the example above, both of which were preceded with two forward slashes.
 
-There is no built-in I/O functionality in JavaScript; the run-time environment provides that. The ECMAScript specification in edition 5.1 mentions:[49]
+There is no built-in I/O functionality in JavaScript; the run-time environment provides that. The ECMAScript specification in edition 5.1 mentions:
 
 … indeed, there are no provisions in this specification for input of external data or output of computed results.
 
-However, most runtime environments have a console object[50] that can be used to print output. Here is a minimalist Hello World program in JavaScript:
+However, most runtime environments have a console object that can be used to print output. Here is a minimalist Hello World program in JavaScript:
 
+```js
 console.log("Hello World!");
+```
+
 A simple recursive function:
 
+```js
 function factorial(n) {
     if (n === 0 || n === 1) {
         return 1;  // 0! = 1! = 1
@@ -229,8 +233,11 @@ function factorial(n) {
 }
 
 factorial(3); // returns 6
+```
+
 An anonymous function (or lambda):
 
+```js
 function counter() {
     var count = 0;
     return function() {
@@ -242,12 +249,15 @@ var closure = counter();
 closure(); // returns 1
 closure(); // returns 2
 closure(); // returns 3
+```
+
 This example shows that, in JavaScript, function closures capture their non-local variables by reference.
 
 In JavaScript, objects are created in the same way as functions, this is known as a function object.
 
 Object example:
 
+```js
 function Ball(r) {
     this.radius = r; //the radius variable is local to the ball object
     this.area = pi*r**2;
@@ -268,8 +278,11 @@ function sum() {
 }
 sum(1, 2); // returns 3
 sum(1, 2, 3); // returns 6
+```
+
 Immediately-invoked function expressions are often used to create modules, as before ECMAScript 2015 there was not built-in construct in the language. Modules allow gathering properties and methods in a namespace and making some of them private:
 
+```js
 var counter = (function () {
     var i = 0; // private property
 
@@ -290,9 +303,13 @@ counter.get();       // shows 0
 counter.set(6);
 counter.increment(); // shows 7
 counter.increment(); // shows 8
-More advanced example[edit]
+
+```
+
+### More advanced example
 This sample code displays various JavaScript features.
 
+```js
 /* Finds the lowest common multiple (LCM) of two numbers */
 function LCMCalculator(x, y) { // constructor function
   var checkInt = function(x) { // inner function
@@ -374,21 +391,26 @@ function output(x) {
 function printResult(obj) {
   output(obj + ", gcd = " + obj.gcd() + ", lcm = " + obj.lcm());
 }
+```
+
 The following output should be displayed in the browser window.
 
+```
 LCMCalculator: a = 28, b = 56, gcd = 28, lcm = 56
 LCMCalculator: a = 21, b = 56, gcd = 7, lcm = 168
 LCMCalculator: a = 25, b = 55, gcd = 5, lcm = 275
 LCMCalculator: a = 22, b = 58, gcd = 2, lcm = 638
-Use in Web pages[edit]
-See also: Dynamic HTML and Ajax (programming)
+```
+
+## Use in Web pages
+
 As of May 2017 94.5% of 10 million most popular web pages used JavaScript.[52] The most common use of JavaScript is to add client-side behavior to HTML pages, also known as Dynamic HTML (DHTML). Scripts are embedded in or included from HTML pages and interact with the Document Object Model (DOM) of the page. Some simple examples of this usage are:
 
-Loading new page content or submitting data to the server via Ajax without reloading the page (for example, a social network might allow the user to post status updates without leaving the page).
-Animation of page elements, fading them in and out, resizing them, moving them, etc.
-Interactive content, for example games, and playing audio and video.
-Validating input values of a Web form to make sure that they are acceptable before being submitted to the server.
-Transmitting information about the user's reading habits and browsing activities to various websites. Web pages frequently do this for Web analytics, ad tracking, personalization or other purposes.[53]
+* Loading new page content or submitting data to the server via Ajax without reloading the page (for example, a social network might allow the user to post status updates without leaving the page).
+* Animation of page elements, fading them in and out, resizing them, moving them, etc.
+* Interactive content, for example games, and playing audio and video.
+* Validating input values of a Web form to make sure that they are acceptable before being submitted to the server.
+* Transmitting information about the user's reading habits and browsing activities to various websites. Web pages frequently do this for Web analytics, ad tracking, personalization or other purposes.[53]
 Because JavaScript code can run locally in a user's browser (rather than on a remote server), the browser can respond to user actions quickly, making an application more responsive. Furthermore, JavaScript code can detect user actions that HTML alone cannot, such as individual keystrokes. Applications such as Gmail take advantage of this: much of the user-interface logic is written in JavaScript, and JavaScript dispatches requests for information (such as the content of an e-mail message) to the server. The wider trend of Ajax programming similarly exploits this strength.
 
 A JavaScript engine (also known as JavaScript interpreter or JavaScript implementation) is an interpreter that interprets JavaScript source code and executes the script accordingly. The first JavaScript engine was created by Brendan Eich at Netscape, for the Netscape Navigator Web browser. The engine, code-named SpiderMonkey, is implemented in C. It has since been updated (in JavaScript 1.5) to conform to ECMAScript 3. The Rhino engine, created primarily by Norris Boyd (formerly at Netscape, now at Google) is a JavaScript implementation in Java. Rhino, like SpiderMonkey, is ECMAScript 3 compliant.
@@ -397,9 +419,10 @@ A Web browser is by far the most common host environment for JavaScript. Web bro
 
 Because JavaScript is the only language that the most popular browsers share support for, it has become a target language for many frameworks in other languages, even though JavaScript was never intended to be such a language.[54] Despite the performance limitations inherent to its dynamic nature, the increasing speed of JavaScript engines has made the language a surprisingly feasible compilation target.
 
-Example script[edit]
+### Example script
 Below is a minimal example of a standards-conforming Web page containing JavaScript (using HTML 5 syntax) and the DOM:
 
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -416,13 +439,15 @@ Below is a minimal example of a standards-conforming Web page containing JavaScr
     </script>
   </body>
 </html>
-Compatibility considerations[edit]
-Main article: Web interoperability
+```
+
+### Compatibility considerations
+
 Because JavaScript runs in widely varying environments, an important part of testing and debugging is to test and verify that the JavaScript works across multiple browsers.
 
 The DOM interfaces for manipulating Web pages are not part of the ECMAScript standard, or of JavaScript itself. Officially, the DOM interfaces are defined by a separate standardization effort by the W3C; in practice, browser implementations differ from the standards and from each other, and not all browsers execute JavaScript.
 
-To deal with these differences, JavaScript authors can attempt to write standards-compliant code that will also be executed correctly by most browsers; failing that, they can write code that checks for the presence of certain browser features and behaves differently if they are not available.[55] In some cases, two browsers may both implement a feature but with different behavior, and authors may find it practical to detect what browser is running and change their script's behavior to match.[56][57] Programmers may also use libraries or toolkits that take browser differences into account.
+To deal with these differences, JavaScript authors can attempt to write standards-compliant code that will also be executed correctly by most browsers; failing that, they can write code that checks for the presence of certain browser features and behaves differently if they are not available. In some cases, two browsers may both implement a feature but with different behavior, and authors may find it practical to detect what browser is running and change their script's behavior to match. Programmers may also use libraries or toolkits that take browser differences into account.
 
 Furthermore, scripts may not work for some users. For example, a user may:
 
