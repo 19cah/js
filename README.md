@@ -28,7 +28,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
 
 -	[History](#history)
       -	[Beginnings at Netscape](#beginnings-at-netscape)
-      -	[Server-side JavaScript](#server-side-javaScript)
+      -	[Server-side JavaScript](#server-side-javascript)
       -	[Adoption by Microsoft](#adoption-by-microsoft)
       -	[Standardization](#standardization)
       -	[Later developments](#later-developments)
@@ -46,7 +46,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
 -	[Syntax](#syntax)
       -	[Simple examples](#simple-examples)
       -	[More advanced example](#more-advanced-example)
--	[Use in Web pages](#)
+-	[Use in Web pages](#use-in-web-pages])
       -	[Example script](#)
       -	[Compatibility considerations](#)
 -	[Security](#)
