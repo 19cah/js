@@ -26,29 +26,29 @@ Although there are strong outward similarities between JavaScript and Java, incl
 
 -	[History](#history)
       -	[Beginnings at Netscape](#beginnings-at-netscape)
-      -	Server-side JavaScript
-      -	Adoption by Microsoft
-      -	Standardization
-      -	Later developments
--	Trademark
--	Vanilla JavaScript
--	Features
-      -	Universal support
-      -	Imperative and structured
-      -	Dynamic
-      -	Prototype-based (object-oriented)
-      -	Functional
-      -	Delegative
-      -	Miscellaneous
-      -	Vendor-specific extensions
--	Syntax
-      -	Simple examples
-      -	More advanced example
-6	Use in Web pages
-6.1	Example script
-6.2	Compatibility considerations
-7	Security
-7.1	Cross-site vulnerabilities
+      -	[Server-side JavaScript](#server-side-javaScript)
+      -	[Adoption by Microsoft](#adoption-by-microsoft)
+      -	[Standardization](#standardization)
+      -	[Later developments](#Later-developments)
+-	[Trademark](#)
+-	[Vanilla JavaScript](#)
+-	[Features](#)
+      -	[Universal support](#)
+      -	[Imperative and structured](#)
+      -	[Dynamic](#)
+      -	[Prototype-based (object-oriented)](#)
+      -	[Functional](#)
+      -	[Delegative](#)
+      -	[Miscellaneous](#)
+      -	[Vendor-specific extensions](#)
+-	[Syntax](#)
+      -	[Simple examples](#)
+      -	[More advanced example](#)
+6	[Use in Web pages](#)
+6.1	[Example script](#)
+6.2	[Compatibility considerations](#)
+7	[Security](#)
+7.1	[Cross-site vulnerabilities](#)
 7.2	Misplaced trust in the client
 7.3	Misplaced trust in developers
 7.4	Browser and plugin coding errors
@@ -81,15 +81,18 @@ Although it was developed under the name Mocha, the language was officially call
 
 There is a common misconception that JavaScript was influenced by an earlier Web page scripting language developed by Nombas named Cmm (not to be confused with the later C-- created in 1997).[11][12] Brendan Eich, however, had never heard of Cmm before he created LiveScript.[13] Nombas did pitch their embedded Web page scripting to Netscape, though Web page scripting was not a new concept, as shown by the ViolaWWW Web browser.[14] Nombas later switched to offering JavaScript instead of Cmm in their ScriptEase product and was part of the TC39 group that standardized ECMAScript.[15]
 
-Server-side JavaScript[edit]
+### Server-side JavaScript
+
 In December 1995, soon after releasing JavaScript for browsers, Netscape introduced an implementation of the language for server-side scripting with Netscape Enterprise Server.[16]
 
 Since the mid-2000s, additional server-side JavaScript implementations have been introduced, such as Node.js in 2009.[17]
 
-Adoption by Microsoft[edit]
+### Adoption by Microsoft
+
 Microsoft script technologies including VBScript and JScript were released in 1996. JScript, a reverse-engineered implementation of Netscape's JavaScript, was part of Internet Explorer 3. JScript was also available for server-side scripting in Internet Information Server. Internet Explorer 3 also included Microsoft's first support for CSS and various extensions to HTML, but in each case the implementation was noticeably different to that found in Netscape Navigator at the time.[18][19] These differences made it difficult for designers and programmers to make a single website work well in both browsers, leading to the use of "best viewed in Netscape" and "best viewed in Internet Explorer" logos that characterized these early years of the browser wars.[20] JavaScript began to acquire a reputation for being one of the roadblocks to a cross-platform and standards-driven Web. Some developers took on the difficult task of trying to make their sites work in both major browsers, but many could not afford the time.[18] With the release of Internet Explorer 4, Microsoft introduced the concept of Dynamic HTML, but the differences in language implementations and the different and proprietary Document Object Models remained and were obstacles to widespread take-up of JavaScript on the Web.[18]
 
-Standardization[edit]
+### Standardization
+
 In November 1996, Netscape submitted JavaScript to Ecma International to carve out a standard specification, which other browser vendors could then implement based on the work done at Netscape. This led to the official release of the language specification ECMAScript published in the first edition of the ECMA-262 standard in June 1997, with JavaScript being the most well known of the implementations. ActionScript and JScript are other well-known implementations of ECMAScript.
 
 The standards process continued in cycles, with the release of ECMAScript 2 in June 1998, which brings some modifications to conform to the ISO/IEC 16262 international standard. The release of ECMAScript 3 followed in December 1999, which is the baseline for modern day JavaScript. The original ECMAScript 4 work led by Waldemar Horwat (then at Netscape, now at Google) started in 2000 and at first, Microsoft seemed to participate and even implemented some of the proposals in their JScript .NET language.
@@ -108,7 +111,7 @@ In July 2008, the disparate parties on either side came together in Oslo. This l
 
 In June 2011, ECMAScript 5.1 was released to fully align with the third edition of the ISO/IEC 16262 international standard. ECMAScript 2015 was released in June 2015. ECMAScript 2016 was released in June 2016. The current version is ECMAScript 2017, released in June 2017.[22]
 
-Later developments[edit]
+### Later developments
 JavaScript has become one of the most popular programming languages on the Web. Initially, however, many professional programmers denigrated the language because, among other reasons, its target audience consisted of Web authors and other such "amateurs".[23] The advent of Ajax returned JavaScript to the spotlight and brought more professional programming attention. The result was a proliferation of comprehensive frameworks and libraries, improved JavaScript programming practices, and increased usage of JavaScript outside Web browsers, as seen by the proliferation of server-side JavaScript platforms.
 
 In January 2009, the CommonJS project was founded with the goal of specifying a common standard library mainly for JavaScript development outside the browser.[24]
