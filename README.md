@@ -1,8 +1,8 @@
-[[File:/media/img/js.png|right| JavaScript Logo ]]
+![JavaScript Logo](media/img/js.png)
 
 
-|  **JavaScript**  |   |
-| ---------------- | - | 
+|  **JavaScript**  |    |
+| ---------------- | -- | 
 | **Paradigm** |	Multi-paradigm: object-oriented (prototype-based), imperative, functional, event-driven |
 | **Designed by**	| Brendan Eich |
 | **Developer** |Netscape Communications Corporation, Mozilla Foundation, Ecma International|
@@ -11,7 +11,7 @@
 | **Filename extensions**	|`.js`|
 | **Website**	|[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 | **Major implementations**|V8, JavaScriptCore, SpiderMonkey, Chakra
-| **Influenced by** | Lua, Scheme, Perl, Self, Java, C, Python, AWK, HyperTalk| 
+| **Influenced by** |: Lua, Scheme, Perl, Self, Java, C, Python, AWK, HyperTalk :| 
 | **Influenced** | ActionScript, AtScript, CoffeeScript, Dart, JScript .NET, LiveScript, Objective-J, Opa, Perl 6, QML, TypeScript |
 
 *JavaScript*, often abbreviated as `JS`, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
