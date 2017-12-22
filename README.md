@@ -457,17 +457,17 @@ have JavaScript execution disabled as a security precaution;
 use a speech browser due to, for example, a visual disability.
 To support these users, Web authors can try to create pages that degrade gracefully on user agents (browsers) that do not support the page's JavaScript. In particular, the page should remain usable albeit without the extra features that the JavaScript would have added. Some sites use the HTML <noscript> tag, which contains alt content if JS is disabled. An alternative approach that many find preferable is to first author content using basic technologies that work in all browsers, then enhance the content for users that have JavaScript enabled. This is known as progressive enhancement.
 
-Security[edit]
-See also: Browser security
+## Security
+
 JavaScript and the DOM provide the potential for malicious authors to deliver scripts to run on a client computer via the Web. Browser authors contain this risk using two restrictions. First, scripts run in a sandbox in which they can only perform Web-related actions, not general-purpose programming tasks like creating files. Second, scripts are constrained by the same-origin policy: scripts from one Web site do not have access to information such as usernames, passwords, or cookies sent to another site. Most JavaScript-related security bugs are breaches of either the same origin policy or the sandbox.
 
 There are subsets of general JavaScript—ADsafe, Secure ECMAScript (SES)—that provide greater levels of security, especially on code created by third parties (such as advertisements).[58][59] Caja is another project for safe embedding and isolation of third-party JavaScript and HTML.
 
 Content Security Policy is the main intended method of ensuring that only trusted code is executed on a Web page.
 
-See also: Content Security Policy
-Cross-site vulnerabilities[edit]
-Main articles: Cross-site scripting and Cross-site request forgery
+
+### Cross-site vulnerabilities
+
 A common JavaScript-related security problem is cross-site scripting (XSS), a violation of the same-origin policy. XSS vulnerabilities occur when an attacker is able to cause a target Web site, such as an online banking website, to include a malicious script in the webpage presented to a victim. The script in this example can then access the banking application with the privileges of the victim, potentially disclosing secret information or transferring money without the victim's authorization. A solution to XSS vulnerabilities is to use HTML escaping whenever displaying untrusted data.
 
 Some browsers include partial protection against reflected XSS attacks, in which the attacker provides a URL including malicious script. However, even users of those browsers are vulnerable to other XSS attacks, such as those where the malicious code is stored in a database. Only correct design of Web applications on the server side can fully prevent XSS.
@@ -486,10 +486,12 @@ Web site authors cannot perfectly conceal how their JavaScript operates because 
 JavaScript form validation only provides convenience for users, not security. If a site verifies that the user agreed to its terms of service, or filters invalid characters out of fields that should only contain numbers, it must do so on the server, not only the client.
 Scripts can be selectively disabled, so JavaScript can't be relied on to prevent operations such as right-clicking on an image to save it.[61]
 It is extremely bad practice to embed sensitive information such as passwords in JavaScript because it can be extracted by an attacker.
-Misplaced trust in developers[edit]
+
+### Misplaced trust in developers
+
 Package management systems such as NPM and Bower are popular with JavaScript developers. Such systems allow a developer to easily manage their program's dependencies upon other developer's program libraries. Developers trust that the maintainers of the libraries will keep it secure and up to date, but that is not always the case. A vulnerability has emerged because of this blind trust. Relied upon libraries can release an update that causes bugs or vulnerabilities to appear in all programs that rely upon the library. Inversely, a library can go unpatched with known vulnerabilities out in the wild. In a study done looking over a sample of 133k websites, researchers found 37% of the websites included a library with at-least one known vulnerability.[62] "The median lag between the oldest library version used on each website and the newest available version of that library is 1,177 days in ALEXA, and development of some libraries still in active use ceased years ago."[62] Another possibility is that the maintainer of a library may remove the library entirely. This occurred in March 2016 when Azer Koçulu removed his repository from NPM. This caused all tens of thousands of programs and websites depending upon his libraries to break.[63][64]
 
-Browser and plugin coding errors[edit]
+### Browser and plugin coding errors
 JavaScript provides an interface to a wide range of browser capabilities, some of which may have flaws such as buffer overflows. These flaws can allow attackers to write scripts that would run any code they wish on the user's system. This code is not by any means limited to another JavaScript application. For example, a buffer overrun exploit can allow an attacker to gain access to the operating system's API with superuser privileges.
 
 These flaws have affected major browsers including Firefox,[65] Internet Explorer,[66] and Safari.[67]
@@ -498,62 +500,66 @@ Plugins, such as video players, Adobe Flash, and the wide range of ActiveX contr
 
 In Windows Vista, Microsoft has attempted to contain the risks of bugs such as buffer overflows by running the Internet Explorer process with limited privileges.[70] Google Chrome similarly confines its page renderers to their own "sandbox".
 
-Sandbox implementation errors[edit]
+### Sandbox implementation errors
+
 Web browsers are capable of running JavaScript outside the sandbox, with the privileges necessary to, for example, create or delete files. Of course, such privileges aren't meant to be granted to code from the Web.
 
 Incorrectly granting privileges to JavaScript from the Web has played a role in vulnerabilities in both Internet Explorer[71] and Firefox.[72] In Windows XP Service Pack 2, Microsoft demoted JScript's privileges in Internet Explorer.[73]
 
 Microsoft Windows allows JavaScript source files on a computer's hard drive to be launched as general-purpose, non-sandboxed programs (see: Windows Script Host). This makes JavaScript (like VBScript) a theoretically viable vector for a Trojan horse, although JavaScript Trojan horses are uncommon in practice.[74][not in citation given]
 
-Hardware vulnerabilities[edit]
+### Hardware vulnerabilities
 In 2017 a JavaScript based attack via browser was demonstrated that could bypass ASLR. It's called "ASLR⊕Cache" or AnC.[75][76]
 
-Uses outside Web pages[edit]
+## Uses outside Web pages
 In addition to Web browsers and servers, JavaScript interpreters are embedded in a number of tools. Each of these applications provides its own object model that provides access to the host environment. The core JavaScript language remains mostly the same in each application.
 
-Embedded scripting language[edit]
-Google's Chrome extensions, Opera's extensions, Apple's Safari 5 extensions, Apple's Dashboard Widgets, Microsoft's Gadgets, Yahoo! Widgets, Google Desktop Gadgets, and Serence Klipfolio are implemented using JavaScript.
-The MongoDB database accepts queries written in JavaScript. MongoDB and NodeJS are the core components of MEAN: a solution stack for creating Web applications using just JavaScript.
-The Clusterpoint database accept queries written in JS/SQL, which is a combination of SQL and JavaScript. Clusterpoint has built-in computing engine that allows execution of JavaScript code right inside the distributed database.
-Adobe's Acrobat and Adobe Reader support JavaScript in PDF files.[77]
-Tools in the Adobe Creative Suite, including Photoshop, Illustrator, Dreamweaver, and InDesign, allow scripting through JavaScript.
-OpenOffice.org, an office application suite, as well as its popular fork LibreOffice, allows JavaScript to be used as a scripting language.
-The visual programming language Max, released by Cycling '74, offers a JavaScript model of its environment for use by developers. It allows users to reduce visual clutter by using an object for a task rather than many.
-Apple's Logic Pro X digital audio workstation (DAW) software can create custom MIDI effects plugins using JavaScript.[78]
-The Unity game engine supports a modified version of JavaScript for scripting via Mono.[79]
-DX Studio (3D engine) uses the SpiderMonkey implementation of JavaScript for game and simulation logic.[80]
-Maxwell Render (rendering software) provides an ECMA standard based scripting engine for tasks automation.[81]
-Google Apps Script in Google Spreadsheets and Google Sites allows users to create custom formulas, automate repetitive tasks and also interact with other Google products such as Gmail.[82]
+### Embedded scripting language
+* Google's Chrome extensions, Opera's extensions, Apple's Safari 5 extensions, Apple's Dashboard Widgets, Microsoft's Gadgets, * Yahoo! Widgets, Google Desktop Gadgets, and Serence Klipfolio are implemented using JavaScript.
+* The MongoDB database accepts queries written in JavaScript. MongoDB and NodeJS are the core components of MEAN: a solution stack for creating Web applications using just JavaScript.
+* The Clusterpoint database accept queries written in JS/SQL, which is a combination of SQL and JavaScript. Clusterpoint has built-in computing engine that allows execution of JavaScript code right inside the distributed database.
+* Adobe's Acrobat and Adobe Reader support JavaScript in PDF files.[77]
+* Tools in the Adobe Creative Suite, including Photoshop, Illustrator, Dreamweaver, and InDesign, allow scripting through JavaScript.
+* OpenOffice.org, an office application suite, as well as its popular fork LibreOffice, allows JavaScript to be used as a scripting language.
+* The visual programming language Max, released by Cycling '74, offers a JavaScript model of its environment for use by developers. It allows users to reduce visual clutter by using an object for a task rather than many.
+* Apple's Logic Pro X digital audio workstation (DAW) software can create custom MIDI effects plugins using JavaScript.[78]
+* The Unity game engine supports a modified version of JavaScript for scripting via Mono.[79]
+* DX Studio (3D engine) uses the SpiderMonkey implementation of JavaScript for game and simulation logic.[80]
+* Maxwell Render (rendering software) provides an ECMA standard based scripting engine for tasks automation.[81]
+* * Google Apps Script in Google Spreadsheets and Google Sites allows users to create custom formulas, automate repetitive tasks and also interact with other Google products such as Gmail.[82]
 Many IRC clients, like ChatZilla or XChat, use JavaScript for their scripting abilities.[83][84]
-RPG Maker MV uses JavaScript as its scripting language.[85]
-The text editor UltraEdit uses JavaScript 1.7 as internal scripting language, introduced with version 13 in 2007.
-Scripting engine[edit]
-Microsoft's Active Scripting technology supports JScript as a scripting language.[86]
-Java introduced the javax.script package in version 6 that includes a JavaScript implementation based on Mozilla Rhino. Thus, Java applications can host scripts that access the application's variables and objects, much like Web browsers host scripts that access a webpage's Document Object Model (DOM).[87][88]
-The Qt C++ toolkit includes a QtScript module to interpret JavaScript, analogous to Java's javax.script package.[89]
-OS X Yosemite introduced JavaScript for Automation (JXA), which is built upon JavaScriptCore and the Open Scripting Architecture. It features an Objective-C bridge that enables entire Cocoa applications to be programmed in JavaScript.
-Late Night Software's JavaScript OSA (also known as JavaScript for OSA, or JSOSA) is a freeware alternative to AppleScript for OS X. It is based on the Mozilla JavaScript 1.5 implementation, with the addition of a MacOS object for interaction with the operating system and third-party applications.
-Application platform[edit]
-ActionScript, the programming language used in Adobe Flash, is another implementation of the ECMAScript standard.
-Adobe AIR (Adobe Integrated Runtime) is a JavaScript runtime that allows developers to create desktop applications.
-Electron is an open-source framework developed by GitHub.
-CA Technologies AutoShell cross-application scripting environment is built on the SpiderMonkey JavaScript engine. It contains preprocessor-like extensions for command definition, as well as custom classes for various system-related tasks like file I/O, operation system command invocation and redirection, and COM scripting.
-Apache Cordova is a mobile application development framework
-Cocos2d is an open source software framework. It can be used to build games, apps and other cross platform GUI based interactive programs
-Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser engine based on the Chromium core
-RhoMobile Suite is a set of development tools for creating data-centric, cross-platform, native mobile consumer and enterprise applications.
-NW.js call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.[90]
-GNOME Shell, the shell for the GNOME 3 desktop environment,[91] made JavaScript its default programming language in 2013.[92]
-The Mozilla application framework (XPFE) platform, which underlies Firefox, Thunderbird, and some other Web browsers, uses JavaScript to implement the graphical user interface (GUI) of its various products.
-Qt Quick's markup language (available since Qt 4.7) uses JavaScript for its application logic. Its declarative syntax is also similar to JavaScript.
-Ubuntu Touch provides a JavaScript API for its unified usability interface.
-Open webOS is the next generation of web-centric platforms built to run on a wide range of form factors.[93]
-enyo JS is a framework to develop apps for all major platforms, from phones and tablets to PCs and TVs[94]
-WinJS provides a special Windows Library for JavaScript functionality in Windows 8 that enables the development of Modern style (formerly Metro style) applications in HTML5 and JavaScript.
-NativeScript is an open-source framework to develop apps on the Apple iOS and Android platforms.
-Weex is a framework for building Mobile cross-platform UI, created by China Tech giant Alibaba[95]
-XULRunner is packaged version of the Mozilla platform to enable standalone desktop application development
-Development tools[edit]
+* RPG Maker MV uses JavaScript as its scripting language.[85]
+* The text editor UltraEdit uses JavaScript 1.7 as internal scripting language, introduced with version 13 in 2007.
+
+### Scripting engine
+* Microsoft's Active Scripting technology supports JScript as a scripting language.[86]
+* Java introduced the javax.script package in version 6 that includes a JavaScript implementation based on Mozilla Rhino. Thus, Java applications can host scripts that access the application's variables and objects, much like Web browsers host scripts that access a webpage's Document Object Model (DOM).[87][88]
+* The Qt C++ toolkit includes a QtScript module to interpret JavaScript, analogous to Java's javax.script package.[89]
+* OS X Yosemite introduced JavaScript for Automation (JXA), which is built upon JavaScriptCore and the Open Scripting Architecture. It features an Objective-C bridge that enables entire Cocoa applications to be programmed in JavaScript.
+* Late Night Software's JavaScript OSA (also known as JavaScript for OSA, or JSOSA) is a freeware alternative to AppleScript for OS X. It is based on the Mozilla JavaScript 1.5 implementation, with the addition of a MacOS object for interaction with the operating system and third-party applications.
+
+### Application platform
+* ActionScript, the programming language used in Adobe Flash, is another implementation of the ECMAScript standard.
+* Adobe AIR (Adobe Integrated Runtime) is a JavaScript runtime that allows developers to create desktop applications.
+* Electron is an open-source framework developed by GitHub.
+* CA Technologies AutoShell cross-application scripting environment is built on the SpiderMonkey JavaScript engine. It contains preprocessor-like extensions for command definition, as well as custom classes for various system-related tasks like file I/O, operation system command invocation and redirection, and COM scripting.
+* Apache Cordova is a mobile application development framework
+* Cocos2d is an open source software framework. It can be used to build games, apps and other cross platform GUI based interactive programs
+* Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser engine based on the Chromium core
+* RhoMobile Suite is a set of development tools for creating data-centric, cross-platform, native mobile consumer and enterprise applications.
+* NW.js call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.
+* GNOME Shell, the shell for the GNOME 3 desktop environment,[91] made JavaScript its default programming language in 2013.
+* The Mozilla application framework (XPFE) platform, which underlies Firefox, Thunderbird, and some other Web browsers, uses JavaScript to implement the graphical user interface (GUI) of its various products.
+* Qt Quick's markup language (available since Qt 4.7) uses JavaScript for its application logic. Its declarative syntax is also similar to JavaScript.
+* Ubuntu Touch provides a JavaScript API for its unified usability interface.
+* Open webOS is the next generation of web-centric platforms built to run on a wide range of form factors.[93]
+* enyo JS is a framework to develop apps for all major platforms, from phones and tablets to PCs and TVs[94]
+* WinJS provides a special Windows Library for JavaScript functionality in Windows 8 that enables the development of Modern style (formerly Metro style) applications in HTML5 and JavaScript.
+* * NativeScript is an open-source framework to develop apps on the Apple iOS and Android platforms.
+* Weex is a framework for building Mobile cross-platform UI, created by China Tech giant Alibaba[95]
+* XULRunner is packaged version of the Mozilla platform to enable standalone desktop application development
+
+## Development tools
 Within JavaScript, access to a debugger becomes invaluable when developing large, non-trivial programs. Because there can be implementation differences between the various browsers (particularly within the DOM), it is useful to have access to a debugger for each of the browsers that a Web application targets.[96]
 
 Script debuggers are integrated within Internet Explorer, Firefox, Safari, Google Chrome, Opera and Node.js.[97][98][99]
@@ -564,29 +570,26 @@ In comparison to Internet Explorer, Firefox has a more comprehensive set of deve
 
 In addition to the native computer software, there are online JavaScript IDEs, debugging aids that are themselves written in JavaScript and built to run on the Web. An example is the program JSLint, developed by Douglas Crockford who has written extensively on the language. JSLint scans JavaScript code for conformance to a set of standards and guidelines. Many libraries for JavaScript, such as three.js, provide links to demonstration code that can be edited by users. They are also used as a pedagogical tool by institutions such as Khan Academy[103] to allow students to experience writing code in an environment where they can see the output of their programs, without needing any setup beyond a Web browser.
 
-Benchmark tools for developers[edit]
+## Benchmark tools for developers
 Since JavaScript is getting more important for web development (frontend overtakes many aspects which were done in backend before), there is also more consideration done about performance. Especially mobile devices could have problems with rendering and processing unoptimized complex logic.
 
 A library for doing benchmarks is benchmark.js. A benchmarking library that supports high-resolution timers and returns statistically significant results[citation needed].
 
 Another tool is jsben.ch. An online JavaScript benchmarking tool, where code snippets can be tested against each other.
 
-Version history[edit]
+## Version history
 See also: ECMAScript § Versions, and ECMAScript § Version correspondence
 JavaScript was initially developed in 1996 for use in the Netscape Navigator Web browser. In the same year Microsoft released an implementation for Internet Explorer. This implementation was called JScript due to trademark issues. In 1997 the first standardized version of the language was released under the name ECMAScript in the first edition of the ECMA-252 standard. The explicit versioning and opt-in of language features was Mozilla-specific and has been removed. Firefox 4 was the last version which referred to a JavaScript version (1.8.5). With new editions of the ECMA-262 standard, JavaScript language features are now often mentioned with their initial definition in the ECMA-262 editions.
 
-The following table is based on information from multiple sources.[104][105][106]
+The following table is based on information from multiple sources.
 
-Version	Release date	Equivalent to	Netscape
-Navigator	Mozilla
-Firefox	Internet
-Explorer	Opera	Safari	Google
-Chrome
-1.0	March 1996		2.0		3.0			
-1.1	August 1996		3.0					
-1.2	June 1997		4.0-4.05			3		
-1.3	October 1998	ECMA-262 1st + 2nd edition	4.06-4.7x		4.0	5[107]		
-1.4			Netscape
+| Version | Release date | Equivalent to | Netscape <br> Navigator | Mozilla <br> Firefox | Internet Explorer | Opera |	Safari | Google <br> Chrome|
+| - | - | - | - | - | - | - | - | - | 
+| 1.0 | March 1996| | 2.0| | 3.0 | | | |			
+| 1.1 |August 1996		3.0					
+| 1.2 |June 1997		4.0-4.05			3		
+| 1.3 |October 1998	ECMA-262 1st + 2nd edition	4.06-4.7x		4.0	5[107]		
+| 1.4 |Netscape
 Server			6		
 1.5	November 2000	ECMA-262 3rd edition	6.0	1.0	5.5 (JScript 5.5),
 6 (JScript 5.6),
