@@ -4,15 +4,15 @@
 |  **JavaScript**  |    |
 | ---------------- | -- | 
 | **Paradigm** |	Multi-paradigm: object-oriented <br> (prototype-based), imperative, <br> functional, event-driven |
-| **Designed by**	| Brendan Eich |
-| **Developer** |Netscape Communications Corporation, <br> Mozilla Foundation, Ecma International|
+| **Designed by**	| [Brendan Eich](https://github.com/BrendanEich) |
+| **Developer** |Netscape Communications Corporation, <br> Mozilla Foundation, [Ecma International](https://github.com/tc39)|
 | **First appeared**	|December 4, 1995|
 | **Typing discipline**	|dynamic, duck|
 | **Filename extensions**	|`.js`|
 | **Website**	|[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-| **Major implementations**|V8, JavaScriptCore, SpiderMonkey, Chakra
+| **Major implementations**|V8, JavaScriptCore, <br> SpiderMonkey, Chakra
 | **Influenced by** | _Lua, Scheme_, _Perl_, <br> _Self_, _Java_, _C_, _Python_,<br> _AWK_, _HyperTalk_ | 
-| **Influenced** | _ActionScript_, _AtScript_, _CoffeeScript_, <br> _Dart_, _JScript .NET_, <br> _LiveScript_, _Objective-J, Opa_, _Perl 6_, _QML_, _TypeScript_ |
+| **Influenced** | _ActionScript_, _AtScript_, _CoffeeScript_, <br> _Dart_, _JScript .NET_, <br> _LiveScript_, _Objective-J, Opa_, _Perl 6_, <br> _QML_, _TypeScript_ |
 
 *JavaScript*, often abbreviated as `JS`, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
 
