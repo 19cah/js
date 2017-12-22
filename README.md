@@ -1,4 +1,4 @@
-#JavaScript
+# JavaScript
 
 ![JavaScript Logo](media/img/js.png)
 
@@ -32,10 +32,10 @@ Although there are strong outward similarities between JavaScript and Java, incl
       -	[Adoption by Microsoft](#adoption-by-microsoft)
       -	[Standardization](#standardization)
       -	[Later developments](#later-developments)
--	[Trademark](#)
--	[Vanilla JavaScript](#)
--	[Features](#)
-      -	[Universal support](#)
+-	[Trademark](#trademark)
+-	[Vanilla JavaScript](#vanilla-javascript)
+-	[Features](#features)
+      -	[Universal support](#universal-support)
       -	[Imperative and structured](#)
       -	[Dynamic](#)
       -	[Prototype-based (object-oriented)](#)
@@ -51,25 +51,21 @@ Although there are strong outward similarities between JavaScript and Java, incl
       -	[Compatibility considerations](#)
 -	[Security](#)
       -	[Cross-site vulnerabilities](#)
-      -	Misplaced trust in the client
-      -	Misplaced trust in developers
-      -	Browser and plugin coding errors
-      -	Sandbox implementation errors
-      -	Hardware vulnerabilities
--	Uses outside Web pages
-      -	Embedded scripting language
-      -	Scripting engine
-      -	Application platform
--	Development tools
--	Benchmark tools for developers
--	Version history
--	Related languages and features
-      -	Use as an intermediate language
-      -	JavaScript and Java
--	See also
--	References
--	Further reading
--	External links
+      -	[Misplaced trust in the client](#)
+      -	[Misplaced trust in developers](#)
+      -	[Browser and plugin coding errors](#)
+      -	[Sandbox implementation errors](#)
+      -	[Hardware vulnerabilities](#)
+-	[Uses outside Web pages](#)
+      -	[Embedded scripting language](#)
+      -	[Scripting engine](#)
+      -	[Application platform](#)
+-	[Development tools](#)
+-	[Benchmark tools for developers](#)
+-	[Version history](#)
+-	[Related languages and features](#)
+      -	[Use as an intermediate language](#)
+      -	[JavaScript and Java](#)
 
 ## History
 
@@ -143,10 +139,10 @@ JavaScript supports much of the structured programming syntax from C (e.g., if s
 
 **_Typing_**
 
-      As with most scripting languages, JavaScript is dynamically typed; a type is associated with each value, rather than just with each expression. For example, a variable that is at one time bound to a number may later be re-bound to a string.[30] JavaScript supports various ways to test the type of an object, including duck typing.[31]
+   As with most scripting languages, JavaScript is dynamically typed; a type is associated with each value, rather than just with each expression. For example, a variable that is at one time bound to a number may later be re-bound to a string.[30] JavaScript supports various ways to test the type of an object, including duck typing.[31]
 
 **_Run-time evaluation_**
-      JavaScript includes an eval function that can execute statements provided as strings at run-time.
+JavaScript includes an eval function that can execute statements provided as strings at run-time.
 
 ### Prototype-based (object-oriented)
 JavaScript is almost entirely object-based. In JavaScript, an object is an associative array, augmented with a prototype (see below); each string key provides the name for an object property, and there are two syntactical ways to specify such a name: dot notation (obj.x = 10) and bracket notation (obj['x'] = 10). A property may be added, rebound, or deleted at run-time. Most properties of an object (and any property that belongs to an object's prototype inheritance chain) can be enumerated using a for...in loop.
