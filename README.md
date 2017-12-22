@@ -1,3 +1,5 @@
+#JavaScript
+
 ![JavaScript Logo](media/img/js.png)
 
 
@@ -29,7 +31,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
       -	[Server-side JavaScript](#server-side-javaScript)
       -	[Adoption by Microsoft](#adoption-by-microsoft)
       -	[Standardization](#standardization)
-      -	[Later developments](#Later-developments)
+      -	[Later developments](#later-developments)
 -	[Trademark](#)
 -	[Vanilla JavaScript](#)
 -	[Features](#)
@@ -44,30 +46,30 @@ Although there are strong outward similarities between JavaScript and Java, incl
 -	[Syntax](#)
       -	[Simple examples](#)
       -	[More advanced example](#)
-6	[Use in Web pages](#)
-6.1	[Example script](#)
-6.2	[Compatibility considerations](#)
-7	[Security](#)
-7.1	[Cross-site vulnerabilities](#)
-7.2	Misplaced trust in the client
-7.3	Misplaced trust in developers
-7.4	Browser and plugin coding errors
-7.5	Sandbox implementation errors
-7.6	Hardware vulnerabilities
-8	Uses outside Web pages
-8.1	Embedded scripting language
-8.2	Scripting engine
-8.3	Application platform
-9	Development tools
-10	Benchmark tools for developers
-11	Version history
-12	Related languages and features
-12.1	Use as an intermediate language
-12.2	JavaScript and Java
-13	See also
-14	References
-15	Further reading
-16	External links
+-	[Use in Web pages](#)
+      -	[Example script](#)
+      -	[Compatibility considerations](#)
+-	[Security](#)
+      -	[Cross-site vulnerabilities](#)
+      -	Misplaced trust in the client
+      -	Misplaced trust in developers
+      -	Browser and plugin coding errors
+      -	Sandbox implementation errors
+      -	Hardware vulnerabilities
+-	Uses outside Web pages
+      -	Embedded scripting language
+      -	Scripting engine
+      -	Application platform
+-	Development tools
+-	Benchmark tools for developers
+-	Version history
+-	Related languages and features
+      -	Use as an intermediate language
+      -	JavaScript and Java
+-	See also
+-	References
+-	Further reading
+-	External links
 
 ## History
 
@@ -118,36 +120,48 @@ In January 2009, the CommonJS project was founded with the goal of specifying a 
 
 With the rise of single-page applications and JavaScript-heavy sites, it is increasingly being used as a compile target for source-to-source compilers from both dynamic languages and static languages.
 
-Trademark[edit]
+### Trademark
+
 "JavaScript" is a trademark of Oracle Corporation in the United States.[25] It is used under license for technology invented and implemented by Netscape Communications and current entities such as the Mozilla Foundation.[26]
 
-Vanilla JavaScript[edit]
+### Vanilla JavaScript
+
 The terms Vanilla JavaScript and Vanilla JS refer to JavaScript not extended by any frameworks or additional libraries. Scripts written in Vanilla JS are plain JavaScript code.[27][28]
 
-Features[edit]
+### Features
+
 The following features are common to all conforming ECMAScript implementations, unless explicitly specified otherwise.
 
-Universal support[edit]
+### Universal support
 All modern Web browsers support JavaScript with built-in interpreters.
 
-Imperative and structured[edit]
+### Imperative and structured
+
 JavaScript supports much of the structured programming syntax from C (e.g., if statements, while loops, switch statements, do while loops, etc.). One partial exception is scoping: JavaScript originally had only function scoping with var. ECMAScript 2015 added keywords let and const for block scoping, meaning JavaScript now has both function and block scoping. Like C, JavaScript makes a distinction between expressions and statements. One syntactic difference from C is automatic semicolon insertion, which allows the semicolons that would normally terminate statements to be omitted.[29]
 
-Dynamic[edit]
-Typing
-As with most scripting languages, JavaScript is dynamically typed; a type is associated with each value, rather than just with each expression. For example, a variable that is at one time bound to a number may later be re-bound to a string.[30] JavaScript supports various ways to test the type of an object, including duck typing.[31]
-Run-time evaluation
-JavaScript includes an eval function that can execute statements provided as strings at run-time.
-Prototype-based (object-oriented)[edit]
+### Dynamic
+
+**_Typing_**
+
+      As with most scripting languages, JavaScript is dynamically typed; a type is associated with each value, rather than just with each expression. For example, a variable that is at one time bound to a number may later be re-bound to a string.[30] JavaScript supports various ways to test the type of an object, including duck typing.[31]
+
+**_Run-time evaluation_**
+      JavaScript includes an eval function that can execute statements provided as strings at run-time.
+
+### Prototype-based (object-oriented)
 JavaScript is almost entirely object-based. In JavaScript, an object is an associative array, augmented with a prototype (see below); each string key provides the name for an object property, and there are two syntactical ways to specify such a name: dot notation (obj.x = 10) and bracket notation (obj['x'] = 10). A property may be added, rebound, or deleted at run-time. Most properties of an object (and any property that belongs to an object's prototype inheritance chain) can be enumerated using a for...in loop.
 
 JavaScript has a small number of built-in objects, including Function and Date.
 
-Prototypes
+**_Prototypes_**
+
 JavaScript uses prototypes where many other object-oriented languages use classes for inheritance.[32] It is possible to simulate many class-based features with prototypes in JavaScript.[33]
-Functions as object constructors
+
+**_Functions as object constructors_**
+
 Functions double as object constructors, along with their typical role. Prefixing a function call with new will create an instance of a prototype, inheriting properties and methods from the constructor (including properties from the Object prototype).[34] ECMAScript 5 offers the Object.create method, allowing explicit creation of an instance without automatically inheriting from the Object prototype (older environments can assign the prototype to null).[35] The constructor's prototype property determines the object used for the new object's internal prototype. New methods can be added by modifying the prototype of the function used as a constructor. JavaScript's built-in constructors, such as Array or Object, also have prototypes that can be modified. While it is possible to modify the Object prototype, it is generally considered bad practice because most objects in JavaScript will inherit methods and properties from the Object prototype, and they may not expect the prototype to be modified.[36]
-Functions as methods
+
+**_Functions as methods_**
 Unlike many object-oriented languages, there is no distinction between a function definition and a method definition. Rather, the distinction occurs during function calling; when a function is called as a method of an object, the function's local this keyword is bound to that object for that invocation.
 Functional[edit]
 A function is first-class; a function is considered to be an object. As such, a function may have properties and methods, such as .call() and .bind().[37] A nested function is a function defined within another function. It is created each time the outer function is invoked. In addition, each nested function forms a lexical closure: The lexical scope of the outer function (including any constant, local variable, or argument value) becomes part of the internal state of each inner function object, even after execution of the outer function concludes.[38] JavaScript also supports anonymous functions.
