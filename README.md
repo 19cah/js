@@ -621,7 +621,7 @@ jsben.ch is an online JavaScript benchmarking tool, where different code snippet
 
 CRISP: A Strategy guiding Cloud Application Development for Beginners is a strategy proposed by Ayush Sahu to develop optimized and secure JavaScript application to be used in mobiles, PC's and other devices. CRISP (Conversion, Reformat code, Isolate module, Sandbox, Partition) strategy has been proposed for refined conversion of native application to JavaScript for cloud application development. JavaScript is chosen as medium for writing application because it is mostly used language among developers and provides rich API (Application Programming Interface) for writing applications.[112]
 
-Use as an intermediate language[edit]
+### Use as an intermediate language
 As JavaScript is the most widely supported client-side language that can run within a Web browser, it has become an intermediate language for other languages to target. This has included both newly created languages and ports of existing languages. Some of these include:
 
 OberonScript, a full implementation of the Oberon programming language that compiles to high-level JavaScript.[113]
@@ -642,7 +642,7 @@ ClojureScript,[118] a compiler for Clojure that targets JavaScript. It is design
 SqueakJS, a virtual machine and DOM environment for the open-source Squeak implementation of the Smalltalk programming language.
 As JavaScript has unusual limitations – such as no explicit integer type, only double-precision binary floating point – languages that compile to JavaScript and do not take care to use the integer-converting shift and bitwise logical operators may have slightly different behavior than in other environments.
 
-JavaScript and Java[edit]
+### JavaScript and Java
 A common misconception is that JavaScript is similar or closely related to Java. It is true that both have a C-like syntax (the C language being their most immediate common ancestor language). They also are both typically sandboxed (when used inside a browser), and JavaScript was designed with Java's syntax and standard library in mind. In particular, all Java keywords were reserved in original JavaScript, JavaScript's standard library follows Java's naming conventions, and JavaScript's Math and Date objects are based on classes from Java 1.0,[119] but the similarities end there.
 
 Java and JavaScript both first appeared on 23 May 1995, but Java was developed by James Gosling of Sun Microsystems, and JavaScript by Brendan Eich of NetScape Communications.
