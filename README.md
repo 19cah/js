@@ -586,13 +586,13 @@ The following table is based on information from multiple sources.
 | Version | Release date | Equivalent to | Netscape  Navigator | Mozilla  Firefox | Internet Explorer | Opera |	Safari | Google Chrome|
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1.0 | March 1996 | | 2.0| | 3.0 | | | |			
-| 1.1 | August 1996|		3.0					
-| 1.2 | June 1997  |	4.0-4.05			3		
-| 1.3 | October 1998|	ECMA-262 1st + 2nd edition	4.06-4.7x		4.0	5		
-| 1.4 || Netscape <br> Server| 6
+| 1.1 | August 1996|		|3.0| | | | | | |					
+| 1.2 | June 1997  |	|4.0-4.05| | |3| | |		
+| 1.3 | October 1998|	ECMA-262 1st + 2nd edition|	4.06-4.7x| |4.0|	5| | |		
+| 1.4 || Netscape <br> Server| | | 6| | | |
 |1.5|	November 2000|	ECMA-262 3rd edition	|6.0	|1.0|	5.5 (JScript 5.5)<br> 6 (JScript 5.6)<br> 7 (JScript 5.7)<br> 8 (JScript 5.8)	|7.0|	3.0-5| 1.0-10.0.666|
-|1.6|	November 2005|	1.5 + array extras + array and string generics + E4X|		1.5				
-|1.7|	October 2006|	1.6 + Pythonic generators + iterators + let|		2.0				28.0.1500.95
+|1.6|	November 2005|	1.5 + array extras + array and string generics + E4X|	|1.5| | | | | |
+|1.7|	October 2006|	1.6 + Pythonic generators + iterators + let|	|2.0| | | |28.0.1500.95|
 |1.8|	June 2008|	1.7 + generator expressions + expression closures| | |3.0| |11.50	| | |
 |1.8.1|		|1.8 + native JSON support + minor updates| | 3.5 | | | | |				
 |1.8.2| June 22, 2009|	1.8.1 + minor updates|| 3.6| | | | |				
