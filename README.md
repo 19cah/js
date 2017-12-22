@@ -3,7 +3,7 @@
 
 |  **JavaScript**  |    |
 | ---------------- | -- | 
-| **Paradigm** |	Multi-paradigm: object-oriented <br> (prototype-based), imperative, functional, event-driven |
+| **Paradigm** |	Multi-paradigm: object-oriented <br> (prototype-based), imperative, <br> functional, event-driven |
 | **Designed by**	| Brendan Eich |
 | **Developer** |Netscape Communications Corporation, <br> Mozilla Foundation, Ecma International|
 | **First appeared**	|December 4, 1995|
