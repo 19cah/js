@@ -24,23 +24,23 @@ Although there are strong outward similarities between JavaScript and Java, incl
 
 ## Contents
 
-1.	History
-  1.	Beginnings at Netscape
-  1.	Server-side JavaScript
-  1.	Adoption by Microsoft
-  1.	Standardization
-  1.	Later developments
-2	Trademark
-3	Vanilla JavaScript
-4	Features
-4.1	Universal support
-4.2	Imperative and structured
-4.3	Dynamic
-4.4	Prototype-based (object-oriented)
-4.5	Functional
-4.6	Delegative
-4.7	Miscellaneous
-4.8	Vendor-specific extensions
+-	[History](#history)
+  -	[Beginnings at Netscape](#beginnings-at-netscape)
+  -	Server-side JavaScript
+  -	Adoption by Microsoft
+  -	Standardization
+  -	Later developments
+-	Trademark
+-	Vanilla JavaScript
+-	Features
+  -	Universal support
+  -	Imperative and structured
+  -	Dynamic
+  -	Prototype-based (object-oriented)
+  -	Functional
+  -	Delegative
+  -	Miscellaneous
+  -	Vendor-specific extensions
 5	Syntax
 5.1	Simple examples
 5.2	More advanced example
@@ -68,8 +68,11 @@ Although there are strong outward similarities between JavaScript and Java, incl
 14	References
 15	Further reading
 16	External links
-History[edit]
-Beginnings at Netscape[edit]
+
+## History
+
+### Beginnings at Netscape
+
 In 1993, the National Center for Supercomputing Applications (NCSA), a unit of the University of Illinois at Urbana-Champaign, released NCSA Mosaic, the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web. In 1994, a company called Mosaic Communications was founded in Mountain View, California and employed many of the original NCSA Mosaic authors to create Mosaic Netscape. However, it intentionally shared no code with NCSA Mosaic. The internal codename for the company's browser was Mozilla, which stood for "Mosaic killer", as the company's goal was to displace NCSA Mosaic as the world's number one web browser. The first version of the Web browser, Mosaic Netscape 0.9, was released in late 1994. Within four months it had already taken three-quarters of the browser market and became the main browser for the Internet in the 1990s. To avoid trademark ownership problems with the NCSA, the browser was subsequently renamed Netscape Navigator in the same year, and the company took the name Netscape Communications. Netscape Communications realized that the Web needed to become more dynamic. Marc Andreessen, the founder of the company believed that HTML needed a "glue language" that was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be written directly in the Web page markup.
 
 In 1995, Netscape Communications recruited Brendan Eich with the goal of embedding the Scheme programming language into its Netscape Navigator.[8] Before he could get started, Netscape Communications collaborated with Sun Microsystems to include in Netscape Navigator Sun's more static programming language Java, in order to compete with Microsoft for user adoption of Web technologies and platforms.[9] Netscape Communications then decided that the scripting language they wanted to create would complement Java and should have a similar syntax, which excluded adopting other languages such as Perl, Python, TCL, or Scheme. To defend the idea of JavaScript against competing proposals, the company needed a prototype. Eich wrote one in 10 days, in May 1995.
