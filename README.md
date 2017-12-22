@@ -25,25 +25,25 @@ Although there are strong outward similarities between JavaScript and Java, incl
 ## Contents
 
 -	[History](#history)
-  -	[Beginnings at Netscape](#beginnings-at-netscape)
-  -	Server-side JavaScript
-  -	Adoption by Microsoft
-  -	Standardization
-  -	Later developments
+      -	[Beginnings at Netscape](#beginnings-at-netscape)
+      -	Server-side JavaScript
+      -	Adoption by Microsoft
+      -	Standardization
+      -	Later developments
 -	Trademark
 -	Vanilla JavaScript
 -	Features
-  -	Universal support
-  -	Imperative and structured
-  -	Dynamic
-  -	Prototype-based (object-oriented)
-  -	Functional
-  -	Delegative
-  -	Miscellaneous
-  -	Vendor-specific extensions
-5	Syntax
-5.1	Simple examples
-5.2	More advanced example
+      -	Universal support
+      -	Imperative and structured
+      -	Dynamic
+      -	Prototype-based (object-oriented)
+      -	Functional
+      -	Delegative
+      -	Miscellaneous
+      -	Vendor-specific extensions
+-	Syntax
+      -	Simple examples
+      -	More advanced example
 6	Use in Web pages
 6.1	Example script
 6.2	Compatibility considerations
