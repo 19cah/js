@@ -116,15 +116,15 @@ In January 2009, the CommonJS project was founded with the goal of specifying a 
 
 With the rise of single-page applications and JavaScript-heavy sites, it is increasingly being used as a compile target for source-to-source compilers from both dynamic languages and static languages.
 
-### Trademark
+## Trademark
 
 "JavaScript" is a trademark of Oracle Corporation in the United States.[25] It is used under license for technology invented and implemented by Netscape Communications and current entities such as the Mozilla Foundation.[26]
 
-### Vanilla JavaScript
+## Vanilla JavaScript
 
 The terms Vanilla JavaScript and Vanilla JS refer to JavaScript not extended by any frameworks or additional libraries. Scripts written in Vanilla JS are plain JavaScript code.[27][28]
 
-### Features
+## Features
 
 The following features are common to all conforming ECMAScript implementations, unless explicitly specified otherwise.
 
@@ -159,17 +159,22 @@ Functions double as object constructors, along with their typical role. Prefixin
 
 **_Functions as methods_**
 Unlike many object-oriented languages, there is no distinction between a function definition and a method definition. Rather, the distinction occurs during function calling; when a function is called as a method of an object, the function's local this keyword is bound to that object for that invocation.
-Functional[edit]
+
+### Functional
+
 A function is first-class; a function is considered to be an object. As such, a function may have properties and methods, such as .call() and .bind().[37] A nested function is a function defined within another function. It is created each time the outer function is invoked. In addition, each nested function forms a lexical closure: The lexical scope of the outer function (including any constant, local variable, or argument value) becomes part of the internal state of each inner function object, even after execution of the outer function concludes.[38] JavaScript also supports anonymous functions.
 
-Delegative[edit]
+### Delegative
+
 JavaScript supports implicit and explicit delegation.
 
 Functions as roles (Traits and Mixins)
 JavaScript natively supports various function-based implementations of Role[39] patterns like Traits[40][41] and Mixins.[42] Such a function defines additional behavior by at least one method bound to the this keyword within its function body. A Role then has to be delegated explicitly via call or apply to objects that need to feature additional behavior that is not shared via the prototype chain.
 Object composition and inheritance
 Whereas explicit function-based delegation does cover composition in JavaScript, implicit delegation already happens every time the prototype chain is walked in order to, e.g., find a method that might be related to but is not directly owned by an object. Once the method is found it gets called within this object's context. Thus inheritance in JavaScript is covered by a delegation automatism that is bound to the prototype property of constructor functions.
-Miscellaneous[edit]
+
+### Miscellaneous
+
 Run-time environment
 JavaScript typically relies on a run-time environment (e.g., a Web browser) to provide objects and methods by which scripts can interact with the environment (e.g., a webpage DOM). It also relies on the run-time environment to provide the ability to include/import scripts (e.g., HTML <script> elements). This is not a language feature per se, but it is common in most JavaScript implementations.
 JavaScript processes messages from a queue one at a time. Upon loading a new message, JavaScript calls a function associated with that message, which creates a call stack frame (the function's arguments and local variables). The call stack shrinks and grows based on the function's needs. Upon function completion, when the stack is empty, JavaScript proceeds to the next message in the queue. This is called the event loop, described as "run to completion" because each message is fully processed before the next message is considered. However, the language's concurrency model describes the event loop as non-blocking: program input/output is performed using events and callback functions. This means, for instance, that JavaScript can process a mouse click while waiting for a database query to return information.[43]
@@ -179,26 +184,32 @@ Array and object literals
 Like many scripting languages, arrays and objects (associative arrays in other languages) can each be created with a succinct shortcut syntax. In fact, these literals form the basis of the JSON data format.
 Regular expressions
 JavaScript also supports regular expressions in a manner similar to Perl, which provide a concise and powerful syntax for text manipulation that is more sophisticated than the built-in string functions.[44]
-Vendor-specific extensions[edit]
+
+### Vendor-specific extensions
+
 JavaScript is officially managed by Mozilla Foundation, and new language features are added periodically. However, only some JavaScript engines support these new features:
 
-property getter and setter functions (supported by WebKit, Gecko, Opera,[45] ActionScript, and Rhino)[46]
-conditional catch clauses
-iterator protocol (adopted from Python)
-shallow generators-coroutines (adopted from Python)
-array comprehensions and generator expressions (adopted from Python)
-proper block scope via the let keyword
-array and object destructuring (limited form of pattern matching)
-concise function expressions (function(args) expr)
-ECMAScript for XML (E4X), an extension that adds native XML support to ECMAScript (unsupported in Firefox since version 21[47])
-Syntax[edit]
-Main article: JavaScript syntax
-Simple examples[edit]
-Variables in JavaScript can be defined using the var keyword:[48]
+* property getter and setter functions (supported by WebKit, Gecko, Opera,[45] ActionScript, and Rhino)[46]
+* conditional catch clauses
+* iterator protocol (adopted from Python)
+* shallow generators-coroutines (adopted from Python)
+* array comprehensions and generator expressions (adopted from Python)
+* proper block scope via the let keyword
+* array and object destructuring (limited form of pattern matching)
+* concise function expressions (function(args) expr)
+* ECMAScript for XML (E4X), an extension that adds native XML support to ECMAScript (unsupported in Firefox since version 21)
 
+## Syntax
+
+### Simple examples
+Variables in JavaScript can be defined using the var keyword:
+
+```js
 var x; // defines the variable x and assigns to it the special value "undefined" (not to be confused with an undefined value)
 var y = 2; // defines the variable y and assigns to it the value 2
 var z = "Hello, World!"; // defines the variable z and assigns to it a string entitled "Hello, World!"
+```
+
 Note the comments in the example above, both of which were preceded with two forward slashes.
 
 There is no built-in I/O functionality in JavaScript; the run-time environment provides that. The ECMAScript specification in edition 5.1 mentions:[49]
