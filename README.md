@@ -3,7 +3,7 @@
 ![JavaScript Logo](media/img/js.png)
 
 
-|  **JavaScript**  |    |
+|  **JavaScript**  |   ![about js bandage](https://img.shields.io/badge/about-JavaScript-F7F53B.svg) |
 | ---------------- | -- | 
 | **Paradigm** |	Multi-paradigm: object-oriented <br> (prototype-based), imperative, <br> functional, event-driven |
 | **Designed by**	| [Brendan Eich](https://github.com/BrendanEich) |
