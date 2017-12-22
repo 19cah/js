@@ -11,8 +11,8 @@
 | **Filename extensions**	|`.js`|
 | **Website**	|[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 | **Major implementations**|V8, JavaScriptCore, SpiderMonkey, Chakra
-| **Influenced by** | Lua, Scheme, Perl, <br> Self, Java, C, Python,<br> AWK, HyperTalk :| 
-| **Influenced** | ActionScript, AtScript, CoffeeScript, <br> Dart, JScript .NET, <br> LiveScript, Objective-J, Opa, Perl 6, QML, TypeScript |
+| **Influenced by** | _Lua, Scheme_, _Perl_, <br> _Self_, _Java_, _C_, _Python_,<br> _AWK_, _HyperTalk_ | 
+| **Influenced** | _ActionScript_, _AtScript_, _CoffeeScript_, <br> _Dart_, _JScript .NET_, <br> _LiveScript_, _Objective-J, Opa_, _Perl 6_, _QML_, _TypeScript_ |
 
 *JavaScript*, often abbreviated as `JS`, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in JavaScript engine. Each of the many JavaScript engines represent a different implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the spec fully, and with many engines supporting additional features beyond ECMA.
 
