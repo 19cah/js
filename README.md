@@ -38,7 +38,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
       -	[Universal support](#universal-support)
       -	[Imperative and structured](#imperative-and-structured)
       -	[Dynamic](#dynamic)
-      -	[Prototype-based (object-oriented)](#prototype-based%20(object-oriented))
+      -	[Prototype-based (object-oriented)](#prototype-based)
       -	[Functional](#functional)
       -	[Delegative](#delegative)
       -	[Miscellaneous](#miscellaneous)
