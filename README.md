@@ -36,7 +36,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
 -	[Vanilla JavaScript](#vanilla-javascript)
 -	[Features](#features)
       -	[Universal support](#universal-support)
-      -	[Imperative and structured](#)
+      -	[Imperative and structured](#imperative-and-structured)
       -	[Dynamic](#dynamic)
       -	[Prototype-based (object-oriented)](#prototype-based)
       -	[Functional](#functional)
@@ -47,7 +47,7 @@ Although there are strong outward similarities between JavaScript and Java, incl
       -	[Simple examples](#simple-examples)
       -	[More advanced example](#more-advanced-example)
 -	[Use in Web pages](#use-in-web-pages])
-      -	[Example script](#example-script)===========================================
+      -	[Example script](#example-script)
       -	[Compatibility considerations](#compatibility-considerations)
 -	[Security](#Security)
       -	[Cross-site vulnerabilities](#cross-site-vulnerabilities)
