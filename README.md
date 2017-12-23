@@ -144,7 +144,8 @@ JavaScript supports much of the structured programming syntax from C (e.g., if s
 **_Run-time evaluation_**
 JavaScript includes an eval function that can execute statements provided as strings at run-time.
 
-### Prototype-based (object-oriented)
+### Prototype-based 
+(object-oriented)
 JavaScript is almost entirely object-based. In JavaScript, an object is an associative array, augmented with a prototype (see below); each string key provides the name for an object property, and there are two syntactical ways to specify such a name: dot notation (obj.x = 10) and bracket notation (obj['x'] = 10). A property may be added, rebound, or deleted at run-time. Most properties of an object (and any property that belongs to an object's prototype inheritance chain) can be enumerated using a for...in loop.
 
 JavaScript has a small number of built-in objects, including Function and Date.
