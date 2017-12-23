@@ -506,12 +506,12 @@ In Windows Vista, Microsoft has attempted to contain the risks of bugs such as b
 
 Web browsers are capable of running JavaScript outside the sandbox, with the privileges necessary to, for example, create or delete files. Of course, such privileges aren't meant to be granted to code from the Web.
 
-Incorrectly granting privileges to JavaScript from the Web has played a role in vulnerabilities in both Internet Explorer[71] and Firefox.[72] In Windows XP Service Pack 2, Microsoft demoted JScript's privileges in Internet Explorer.[73]
+Incorrectly granting privileges to JavaScript from the Web has played a role in vulnerabilities in both Internet Explorer and Firefox. In Windows XP Service Pack 2, Microsoft demoted JScript's privileges in Internet Explorer.
 
-Microsoft Windows allows JavaScript source files on a computer's hard drive to be launched as general-purpose, non-sandboxed programs (see: Windows Script Host). This makes JavaScript (like VBScript) a theoretically viable vector for a Trojan horse, although JavaScript Trojan horses are uncommon in practice.[74][not in citation given]
+Microsoft Windows allows JavaScript source files on a computer's hard drive to be launched as general-purpose, non-sandboxed programs (see: Windows Script Host). This makes JavaScript (like VBScript) a theoretically viable vector for a Trojan horse, although JavaScript Trojan horses are uncommon in practice.
 
 ### Hardware vulnerabilities
-In 2017 a JavaScript based attack via browser was demonstrated that could bypass ASLR. It's called "ASLR⊕Cache" or AnC.[75][76]
+In 2017 a JavaScript based attack via browser was demonstrated that could bypass ASLR. It's called "ASLR⊕Cache" or AnC.
 
 ## Uses outside Web pages
 In addition to Web browsers and servers, JavaScript interpreters are embedded in a number of tools. Each of these applications provides its own object model that provides access to the host environment. The core JavaScript language remains mostly the same in each application.
@@ -520,23 +520,23 @@ In addition to Web browsers and servers, JavaScript interpreters are embedded in
 * Google's Chrome extensions, Opera's extensions, Apple's Safari 5 extensions, Apple's Dashboard Widgets, Microsoft's Gadgets, * Yahoo! Widgets, Google Desktop Gadgets, and Serence Klipfolio are implemented using JavaScript.
 * The MongoDB database accepts queries written in JavaScript. MongoDB and NodeJS are the core components of MEAN: a solution stack for creating Web applications using just JavaScript.
 * The Clusterpoint database accept queries written in JS/SQL, which is a combination of SQL and JavaScript. Clusterpoint has built-in computing engine that allows execution of JavaScript code right inside the distributed database.
-* Adobe's Acrobat and Adobe Reader support JavaScript in PDF files.[77]
+* Adobe's Acrobat and Adobe Reader support JavaScript in PDF files.
 * Tools in the Adobe Creative Suite, including Photoshop, Illustrator, Dreamweaver, and InDesign, allow scripting through JavaScript.
 * OpenOffice.org, an office application suite, as well as its popular fork LibreOffice, allows JavaScript to be used as a scripting language.
 * The visual programming language Max, released by Cycling '74, offers a JavaScript model of its environment for use by developers. It allows users to reduce visual clutter by using an object for a task rather than many.
-* Apple's Logic Pro X digital audio workstation (DAW) software can create custom MIDI effects plugins using JavaScript.[78]
-* The Unity game engine supports a modified version of JavaScript for scripting via Mono.[79]
-* DX Studio (3D engine) uses the SpiderMonkey implementation of JavaScript for game and simulation logic.[80]
-* Maxwell Render (rendering software) provides an ECMA standard based scripting engine for tasks automation.[81]
-* * Google Apps Script in Google Spreadsheets and Google Sites allows users to create custom formulas, automate repetitive tasks and also interact with other Google products such as Gmail.[82]
-Many IRC clients, like ChatZilla or XChat, use JavaScript for their scripting abilities.[83][84]
-* RPG Maker MV uses JavaScript as its scripting language.[85]
+* Apple's Logic Pro X digital audio workstation (DAW) software can create custom MIDI effects plugins using JavaScript.
+* The Unity game engine supports a modified version of JavaScript for scripting via Mono.
+* DX Studio (3D engine) uses the SpiderMonkey implementation of JavaScript for game and simulation logic.
+* Maxwell Render (rendering software) provides an ECMA standard based scripting engine for tasks automation.
+* * Google Apps Script in Google Spreadsheets and Google Sites allows users to create custom formulas, automate repetitive tasks and also interact with other Google products such as Gmail.
+Many IRC clients, like ChatZilla or XChat, use JavaScript for their scripting abilities.
+* RPG Maker MV uses JavaScript as its scripting language.
 * The text editor UltraEdit uses JavaScript 1.7 as internal scripting language, introduced with version 13 in 2007.
 
 ### Scripting engine
-* Microsoft's Active Scripting technology supports JScript as a scripting language.[86]
-* Java introduced the javax.script package in version 6 that includes a JavaScript implementation based on Mozilla Rhino. Thus, Java applications can host scripts that access the application's variables and objects, much like Web browsers host scripts that access a webpage's Document Object Model (DOM).[87][88]
-* The Qt C++ toolkit includes a QtScript module to interpret JavaScript, analogous to Java's javax.script package.[89]
+* Microsoft's Active Scripting technology supports JScript as a scripting language.
+* Java introduced the javax.script package in version 6 that includes a JavaScript implementation based on Mozilla Rhino. Thus, Java applications can host scripts that access the application's variables and objects, much like Web browsers host scripts that access a webpage's Document Object Model (DOM).
+* The Qt C++ toolkit includes a QtScript module to interpret JavaScript, analogous to Java's javax.script package.
 * OS X Yosemite introduced JavaScript for Automation (JXA), which is built upon JavaScriptCore and the Open Scripting Architecture. It features an Objective-C bridge that enables entire Cocoa applications to be programmed in JavaScript.
 * Late Night Software's JavaScript OSA (also known as JavaScript for OSA, or JSOSA) is a freeware alternative to AppleScript for OS X. It is based on the Mozilla JavaScript 1.5 implementation, with the addition of a MacOS object for interaction with the operating system and third-party applications.
 
@@ -550,32 +550,32 @@ Many IRC clients, like ChatZilla or XChat, use JavaScript for their scripting ab
 * Chromium Embedded Framework (CEF) is an open source framework for embedding a web browser engine based on the Chromium core
 * RhoMobile Suite is a set of development tools for creating data-centric, cross-platform, native mobile consumer and enterprise applications.
 * NW.js call all Node.js modules directly from DOM and enable a new way of writing applications with all Web technologies.
-* GNOME Shell, the shell for the GNOME 3 desktop environment,[91] made JavaScript its default programming language in 2013.
+* GNOME Shell, the shell for the GNOME 3 desktop environment, made JavaScript its default programming language in 2013.
 * The Mozilla application framework (XPFE) platform, which underlies Firefox, Thunderbird, and some other Web browsers, uses JavaScript to implement the graphical user interface (GUI) of its various products.
 * Qt Quick's markup language (available since Qt 4.7) uses JavaScript for its application logic. Its declarative syntax is also similar to JavaScript.
 * Ubuntu Touch provides a JavaScript API for its unified usability interface.
-* Open webOS is the next generation of web-centric platforms built to run on a wide range of form factors.[93]
-* enyo JS is a framework to develop apps for all major platforms, from phones and tablets to PCs and TVs[94]
+* Open webOS is the next generation of web-centric platforms built to run on a wide range of form factors.
+* enyo JS is a framework to develop apps for all major platforms, from phones and tablets to PCs and TVs
 * WinJS provides a special Windows Library for JavaScript functionality in Windows 8 that enables the development of Modern style (formerly Metro style) applications in HTML5 and JavaScript.
 * * NativeScript is an open-source framework to develop apps on the Apple iOS and Android platforms.
-* Weex is a framework for building Mobile cross-platform UI, created by China Tech giant Alibaba[95]
+* Weex is a framework for building Mobile cross-platform UI, created by China Tech giant Alibaba
 * XULRunner is packaged version of the Mozilla platform to enable standalone desktop application development
 
 ## Development tools
-Within JavaScript, access to a debugger becomes invaluable when developing large, non-trivial programs. Because there can be implementation differences between the various browsers (particularly within the DOM), it is useful to have access to a debugger for each of the browsers that a Web application targets.[96]
+Within JavaScript, access to a debugger becomes invaluable when developing large, non-trivial programs. Because there can be implementation differences between the various browsers (particularly within the DOM), it is useful to have access to a debugger for each of the browsers that a Web application targets.
 
-Script debuggers are integrated within Internet Explorer, Firefox, Safari, Google Chrome, Opera and Node.js.[97][98][99]
+Script debuggers are integrated within Internet Explorer, Firefox, Safari, Google Chrome, Opera and Node.js.
 
-In addition to the native Internet Explorer Developer Tools, three debuggers are available for Internet Explorer: Microsoft Visual Studio is the richest of the three, closely followed by Microsoft Script Editor (a component of Microsoft Office),[100] and finally the free Microsoft Script Debugger that is far more basic than the other two. The free Microsoft Visual Web Developer Express provides a limited version of the JavaScript debugging functionality in Microsoft Visual Studio. Internet Explorer has included developer tools since version 8.
+In addition to the native Internet Explorer Developer Tools, three debuggers are available for Internet Explorer: Microsoft Visual Studio is the richest of the three, closely followed by Microsoft Script Editor (a component of Microsoft Office), and finally the free Microsoft Script Debugger that is far more basic than the other two. The free Microsoft Visual Web Developer Express provides a limited version of the JavaScript debugging functionality in Microsoft Visual Studio. Internet Explorer has included developer tools since version 8.
 
-In comparison to Internet Explorer, Firefox has a more comprehensive set of developer tools, which include a debugger as well. Old versions of Firefox without these tools used a Firefox addon called Firebug, or the older Venkman debugger. Also, WebKit's Web Inspector includes a JavaScript debugger,[101] which is used in Safari. A modified version called Blink DevTools is used in Google Chrome. Node.js has Node Inspector, an interactive debugger that integrates with the Blink DevTools, available in Google Chrome. Opera includes a set of tools called Dragonfly.[102]
+In comparison to Internet Explorer, Firefox has a more comprehensive set of developer tools, which include a debugger as well. Old versions of Firefox without these tools used a Firefox addon called Firebug, or the older Venkman debugger. Also, WebKit's Web Inspector includes a JavaScript debugger, which is used in Safari. A modified version called Blink DevTools is used in Google Chrome. Node.js has Node Inspector, an interactive debugger that integrates with the Blink DevTools, available in Google Chrome. Opera includes a set of tools called Dragonfly.
 
-In addition to the native computer software, there are online JavaScript IDEs, debugging aids that are themselves written in JavaScript and built to run on the Web. An example is the program JSLint, developed by Douglas Crockford who has written extensively on the language. JSLint scans JavaScript code for conformance to a set of standards and guidelines. Many libraries for JavaScript, such as three.js, provide links to demonstration code that can be edited by users. They are also used as a pedagogical tool by institutions such as Khan Academy[103] to allow students to experience writing code in an environment where they can see the output of their programs, without needing any setup beyond a Web browser.
+In addition to the native computer software, there are online JavaScript IDEs, debugging aids that are themselves written in JavaScript and built to run on the Web. An example is the program JSLint, developed by Douglas Crockford who has written extensively on the language. JSLint scans JavaScript code for conformance to a set of standards and guidelines. Many libraries for JavaScript, such as three.js, provide links to demonstration code that can be edited by users. They are also used as a pedagogical tool by institutions such as Khan Academy to allow students to experience writing code in an environment where they can see the output of their programs, without needing any setup beyond a Web browser.
 
 ## Benchmark tools for developers
 Since JavaScript is getting more important for web development (frontend overtakes many aspects which were done in backend before), there is also more consideration done about performance. Especially mobile devices could have problems with rendering and processing unoptimized complex logic.
 
-A library for doing benchmarks is benchmark.js. A benchmarking library that supports high-resolution timers and returns statistically significant results[citation needed].
+A library for doing benchmarks is benchmark.js. A benchmarking library that supports high-resolution timers and returns statistically significant results.
 
 Another tool is jsben.ch. An online JavaScript benchmarking tool, where code snippets can be tested against each other.
 
@@ -587,9 +587,9 @@ The following table is based on information from multiple sources.
 
 | Version | Release date | Equivalent to | Netscape  Navigator | Mozilla  Firefox | Internet Explorer | Opera |	Safari | Google Chrome|
 | :---: | :----: | :---: | :---: | :----: | :-----: | :---: | :---: | :---: |
-| 1.0 | March 1996 | | 2.0| | 3.0 | | | |			
-| 1.1 | August 1996|		|3.0| | | | | | |					
-| 1.2 | June 1997  |	|4.0-4.05| | |3| | |		
+| 1.0 | March 1996 |     |  2.0  |        | 3.0     |       |       |       |			
+| 1.1 | August 1996|     |  3.0  |        |         |       |       |       |				
+| 1.2 | June 1997  |	 |4.0-4.05| | |3| | |		
 | 1.3 | October 1998|	ECMA-262 1st + 2nd edition|	4.06-4.7x| |4.0|	5| | |		
 | 1.4 || Netscape <br> Server| | | 6| | | |
 |1.5|	November 2000|	ECMA-262 3rd edition	|6.0	|1.0|	5.5 (JScript 5.5), 6 (JScript 5.6), 7 (JScript 5.7), 8 (JScript 5.8)	|7.0|	3.0-5| 1.0-10.0.666|
@@ -611,41 +611,41 @@ Angular and AngularJS are web application frameworks to use for developing singl
 
 React (JavaScript library) is an open-source JavaScript library providing a views that is rendered using components specified as custom HTML tags.
 
-Mozilla browsers currently support LiveConnect, a feature that allows JavaScript and Java to intercommunicate on the Web. However, Mozilla-specific support for LiveConnect was scheduled to be phased out in the future in favor of passing on the LiveConnect handling via NPAPI to the Java 1.6+ plug-in (not yet supported on the Mac as of March 2010).[109] Most browser inspection tools, such as Firebug in Firefox, include JavaScript interpreters that can act on the visible page's DOM.
+Mozilla browsers currently support LiveConnect, a feature that allows JavaScript and Java to intercommunicate on the Web. However, Mozilla-specific support for LiveConnect was scheduled to be phased out in the future in favor of passing on the LiveConnect handling via NPAPI to the Java 1.6+ plug-in (not yet supported on the Mac as of March 2010). Most browser inspection tools, such as Firebug in Firefox, include JavaScript interpreters that can act on the visible page's DOM.
 
-asm.js is a subset of JavaScript that can be run in any JavaScript engine or run faster in an ahead-of-time (AOT) compiling engine.[110]
+asm.js is a subset of JavaScript that can be run in any JavaScript engine or run faster in an ahead-of-time (AOT) compiling engine.
 
 JSFuck is an esoteric programming language. Programs are written using only six different characters, but are still valid JavaScript code.
 
-p5.js[111] is an object oriented JavaScript library designed for artists and designers. It is based on the ideas of the Processing project but is for the web.
+p5.js is an object oriented JavaScript library designed for artists and designers. It is based on the ideas of the Processing project but is for the web.
 
 jsben.ch is an online JavaScript benchmarking tool, where different code snippets can be tested against each other.
 
-CRISP: A Strategy guiding Cloud Application Development for Beginners is a strategy proposed by Ayush Sahu to develop optimized and secure JavaScript application to be used in mobiles, PC's and other devices. CRISP (Conversion, Reformat code, Isolate module, Sandbox, Partition) strategy has been proposed for refined conversion of native application to JavaScript for cloud application development. JavaScript is chosen as medium for writing application because it is mostly used language among developers and provides rich API (Application Programming Interface) for writing applications.[112]
+CRISP: A Strategy guiding Cloud Application Development for Beginners is a strategy proposed by Ayush Sahu to develop optimized and secure JavaScript application to be used in mobiles, PC's and other devices. CRISP (Conversion, Reformat code, Isolate module, Sandbox, Partition) strategy has been proposed for refined conversion of native application to JavaScript for cloud application development. JavaScript is chosen as medium for writing application because it is mostly used language among developers and provides rich API (Application Programming Interface) for writing applications.
 
 ### Use as an intermediate language
 As JavaScript is the most widely supported client-side language that can run within a Web browser, it has become an intermediate language for other languages to target. This has included both newly created languages and ports of existing languages. Some of these include:
 
-OberonScript, a full implementation of the Oberon programming language that compiles to high-level JavaScript.[113]
+OberonScript, a full implementation of the Oberon programming language that compiles to high-level JavaScript.
 Objective-J, a superset of JavaScript that compiles to standard JavaScript. It adds traditional inheritance and Smalltalk/Objective-C style dynamic dispatch and optional pseudo-static typing to JavaScript.
 Processing.js, a JavaScript port of the Processing programming language designed to write visualizations, images, and interactive content. It allows Web browsers to display animations, visual applications, games and other graphical rich content without the need for a Java applet or Flash plugin.
-CoffeeScript, an alternate syntax for JavaScript intended to be more concise and readable. It adds features like array comprehensions (also available in JavaScript since version 1.7)[114] and pattern matching. Like Objective-J, it compiles to JavaScript. Ruby and Python have been cited as influential on CoffeeScript syntax.
+CoffeeScript, an alternate syntax for JavaScript intended to be more concise and readable. It adds features like array comprehensions (also available in JavaScript since version 1.7) and pattern matching. Like Objective-J, it compiles to JavaScript. Ruby and Python have been cited as influential on CoffeeScript syntax.
 Google Web Toolkit translates a subset of Java to JavaScript.
-Scala, an object-oriented and functional programming language, has a Scala-to-JavaScript compiler.[115]
+Scala, an object-oriented and functional programming language, has a Scala-to-JavaScript compiler.
 Pyjs, a port of Google Web Toolkit to Python translates a subset of Python to JavaScript.
 Google Dart, an all-purpose, open source language that compiles to JavaScript.
-Whalesong,[116] a Racket-to-JavaScript compiler.
-Emscripten, a LLVM-backend for porting native libraries to JavaScript, known as asm.js[117]
+Whalesong, a Racket-to-JavaScript compiler.
+Emscripten, a LLVM-backend for porting native libraries to JavaScript, known as asm.js
 Fantom a programming language that runs on JVM, .NET and JavaScript.
 TypeScript, a free and open-source programming language developed by Microsoft. It is a superset of JavaScript, and essentially adds support for optional type annotations and some other language extensions such as classes, interfaces and modules. A TS-script compiles into plain JavaScript and can be executed in any JS host supporting ECMAScript 3 or higher. The compiler is itself written in TypeScript.
 Elm (programming language) is a pure functional language for web apps. Unlike handwritten JavaScript, Elm-generates JavaScript has zero runtime exceptions, a time-traveling debugger, and enforced semantic versioning.
 Haxe, an open-source high-level multiplatform programming language and compiler that can produce applications and source code for many different platforms including JavaScript.
-ClojureScript,[118] a compiler for Clojure that targets JavaScript. It is designed to emit JavaScript code that is compatible with the advanced compilation mode of the Google Closure optimizing compiler.
+ClojureScript, a compiler for Clojure that targets JavaScript. It is designed to emit JavaScript code that is compatible with the advanced compilation mode of the Google Closure optimizing compiler.
 SqueakJS, a virtual machine and DOM environment for the open-source Squeak implementation of the Smalltalk programming language.
 As JavaScript has unusual limitations – such as no explicit integer type, only double-precision binary floating point – languages that compile to JavaScript and do not take care to use the integer-converting shift and bitwise logical operators may have slightly different behavior than in other environments.
 
 ### JavaScript and Java
-A common misconception is that JavaScript is similar or closely related to Java. It is true that both have a C-like syntax (the C language being their most immediate common ancestor language). They also are both typically sandboxed (when used inside a browser), and JavaScript was designed with Java's syntax and standard library in mind. In particular, all Java keywords were reserved in original JavaScript, JavaScript's standard library follows Java's naming conventions, and JavaScript's Math and Date objects are based on classes from Java 1.0,[119] but the similarities end there.
+A common misconception is that JavaScript is similar or closely related to Java. It is true that both have a C-like syntax (the C language being their most immediate common ancestor language). They also are both typically sandboxed (when used inside a browser), and JavaScript was designed with Java's syntax and standard library in mind. In particular, all Java keywords were reserved in original JavaScript, JavaScript's standard library follows Java's naming conventions, and JavaScript's Math and Date objects are based on classes from Java 1.0, but the similarities end there.
 
 Java and JavaScript both first appeared on 23 May 1995, but Java was developed by James Gosling of Sun Microsystems, and JavaScript by Brendan Eich of NetScape Communications.
 
