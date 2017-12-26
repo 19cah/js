@@ -6,6 +6,7 @@ Functions are like recipes. They take data or variables, perform a set of tasks 
 
 - [`pizza.js`](examples/pizza.js)
 - [`pizza1.js`](examples/pizza1.js)
+- [`pizza2.js`](examples/pizza2.js)
 
 # Parameters
 The calculator program should be able to perform a math operation on a number. We should be able to give a calculator a number, have it perform a task on it like multiplication, then print a result.
