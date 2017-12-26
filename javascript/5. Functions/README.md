@@ -59,7 +59,7 @@ In the last exercise, we pointed out that using return makes programs more maint
 
 When functions return their value, we can use them together and inside one another. If our calculator needed to have a Celsius to Fahrenheit operation, we could write it with two functions like so:
 
-For example: See [example3.js](example3.js)
+For example: See [example4.js](example4.js)
 
 Take a look at the getFahrenheit function. Inside of its block, we called multiplyByNineFifths and passed it the degrees in celsius. The multiplyByNineFifths function multiplied the celsius by (9/5). Then it returned its value so the getFahrenheit function could continue on to add 32 to it.
 
