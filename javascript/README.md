@@ -1,1 +1,1 @@
-# `JavaScript` at Code Academy
+## JavaScript Curse at Code Academy
