@@ -1,1 +1,1 @@
-Code Academy
+# `JavaScript` at Code Academy
