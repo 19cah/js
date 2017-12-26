@@ -8,3 +8,9 @@ takeOrder('pineapple','cheese crust');
 takeOrder('ham','bold crust');
 
 
+//Ouput
+/*
+Order: thin crust pizza topped with bacon
+Order: cheese crust pizza topped with pineapple
+Order: bold crust pizza topped with ham
+*/
