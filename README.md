@@ -1,4 +1,4 @@
-# Courses
+# JavaScript Courses
 
 - [Code Academy](code-academy)
 - [Solo Learn](solo-learn)
