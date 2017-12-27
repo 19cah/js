@@ -1,3 +1,8 @@
+## See examples
+
+- [`scope.js`](examples/scope.js)
+- [`scope1.js`](examples/scope1.js)
+- [`scope2.js`](examples/scope2.js)
 ## Global Scope
 
 Scope is a big idea in programming, so let's start at a high level.
