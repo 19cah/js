@@ -18,4 +18,4 @@ In addition to a function having access to its own variables, it also has access
 
 In the last exercise we created both variables in the global scope. That is, `laundryRoom` and `mailRoom` are accessible from anywhere in our program.
 
-Now, let's make two variables within a functional scope
+Now, let's make two variables within a functional scope.
