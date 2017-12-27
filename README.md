@@ -1,14 +1,17 @@
-# JavaScript
-
-![JavaScript Logo](media/img/js.png)
-
-# Course
+# Courses
 
 - [Code Academy](code-academy)
 - [Solo Learn](solo-learn)
 - [edX](edx)
 - [Udacity](udacity)
 - [W3Schools](w3schools)
+
+
+# JavaScript
+
+![JavaScript Logo](media/img/js.png)
+
+
 
 |  **JavaScript**  |   ![about js bandage](https://img.shields.io/badge/about-JavaScript-F7F53B.svg) |
 | ---------------- | -- | 
