@@ -81,7 +81,7 @@ console.log(hello[6]);
 
 `'W'` will be the output since it's the character in the 6th position. This works because JavaScript internally stores strings in a similar way that it stores arrays.
 
-### length property
+### Length property
 It is often convenient to know how many items are inside of an array.
 
 We can find this out by using one of an array's built in properties, called .length. We can attach this to any variable holding an array and it will return the number of items inside.
