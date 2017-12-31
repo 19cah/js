@@ -17,6 +17,8 @@ var bucketList = ['Rappel into a cave',
 
 Arrays are JavaScript's way of making lists. These lists can store different data types and they are ordered, meaning the position of each list item is numbered by JavaScript.
 
+
+### *Array.js* Example
 ``` js
 var bucketList = ['Abraham', 'Carlos', 'James'];
 
