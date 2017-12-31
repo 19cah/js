@@ -24,3 +24,9 @@ In addition to a function having access to its own variables, it also has access
 In the last exercise we created both variables in the global scope. That is, `laundryRoom` and `mailRoom` are accessible from anywhere in our program.
 
 Now, let's make two variables within a functional scope.
+
+## Reviewing
+
+- Scope is the idea in programming that some variables are acessible/inaccessible from other parts of the program.
+- Global Scope refers to variables that are accessible to every part of the program.
+- Functional Scope refers to variables created inside functions, which are not accessible outside of its block.
