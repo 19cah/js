@@ -31,4 +31,26 @@ Output:
 [ 'Abraham', 'Carlos', 'James' ]
 ```
 
+### Property Access
 
+We can access an item using its number, just like we would in an ordinary list. There’s one catch though!
+
+JavaScript counts starting from `0`, not `1`, so the first item in an array will be at position `0`. This is because JavaScript is zero-indexed.
+
+We can select the first item in an array like this:
+
+```js
+var bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
+var listItem = bucketList[0];
+console.log(listItem);
+// Output: 'Rappel into a cave'
+```
+
+If we wanted the second item, we'd write:
+
+```js
+var bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
+var listItem = bucketList[1];
+console.log(listItem);
+// Output: 'Take a falconry class'
+```
