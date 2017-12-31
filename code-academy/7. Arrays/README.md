@@ -54,3 +54,29 @@ var listItem = bucketList[1];
 console.log(listItem);
 // Output: 'Take a falconry class'
 ```
+
+Access to an element in an array that doesn't exist:
+
+```js
+var bucketList = ['Abraham', 'Carlos', 'James'];
+
+var listItem = bucketList[3];
+
+console.log(listItem);
+```
+
+Output:
+
+```
+undefined
+```
+
+> Fun fact: You can also access each individual character in a string the same way you do with arrays. For instance, you can write:
+
+```js
+var hello = 'Hello World';
+console.log(hello[6]);
+// Output: W
+```
+
+`'W'` will be the output since it's the character in the 6th position. This works because JavaScript internally stores strings in a similar way that it stores arrays.
